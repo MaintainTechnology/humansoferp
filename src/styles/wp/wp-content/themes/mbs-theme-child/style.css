@@ -1,0 +1,82 @@
+/* 
+Theme Name: Mabe by Seven Platform Child
+Theme URL: https://thanlucero.webflow.io/
+Description: Made by Seven Child is a child theme of Hello Elementor.
+Author: Than Lucero
+Author URL: https://thanlucero.webflow.io/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: mbs-theme-child
+License: GNU General Public License v3 or later.
+License URL: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+.section-padding-x {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.section-padding > div {
+  padding: 130px 0 !important;
+}
+@media screen and (max-width: 1280px) {
+  .section-padding > div {
+    padding: 130px 30px !important;
+  }
+  .section-padding-x {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-padding > div {
+    padding: 80px 20px !important;
+  }
+  .section-padding-x {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .btn-fix {
+    width: 100%;
+  }
+  .btn-fix a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+  .btn-fix a .elementor-button-text {
+    flex-grow: 0;
+  }
+
+  /* 	Animation fix on mobile */
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 30px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .elementor-element.fadeInRight {
+    animation-name: fadeUp;
+    animation-delay: 0 !important;
+  }
+  .elementor-element.fadeInLeft {
+    animation-name: fadeUp;
+    animation-delay: 0 !important;
+  }
+  .elementor-element.zoomIn {
+    animation-name: fadeUp;
+    animation-delay: 0 !important;
+  }
+  .elementor-element.animated {
+    animation-name: fadeUp !important;
+    animation-delay: 0 !important;
+  }
+}

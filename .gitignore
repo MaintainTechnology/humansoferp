@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Verification artifacts (71MB of live-site mirrors + diff output; regenerate
+# with `npm run assets` / `npm run compare` — never deployed)
+reference/
+final-*.png
+popup-*.png
+
+# Local tooling state
+.playwright-mcp/
+.claude/
+.claude-flow/
+.vscode/
+.vercel

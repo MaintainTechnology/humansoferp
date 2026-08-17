@@ -1,0 +1,904 @@
+{
+  "/assets/2025/07/HoE-mobile-menu.svg": {
+    "defaultRel": "2025/07/HoE-mobile-menu.svg",
+    "width": 32,
+    "height": 41,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af.jpg": {
+    "defaultRel": null,
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592.jpg": {
+    "defaultRel": null,
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf.jpg": {
+    "defaultRel": null,
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf-768x960.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f.jpg": {
+    "defaultRel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-819x1024.jpg",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-240x300.jpg",
+        "w": 240
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-768x960.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b.jpg": {
+    "defaultRel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-819x1024.jpg",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-240x300.jpg",
+        "w": 240
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-768x960.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  "/assets/2025/07/Joe-Omaidi-The-Systems-Whisperer.jpg": {
+    "defaultRel": "2025/07/Joe-Omaidi-The-Systems-Whisperer.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Joe-Omaidi-The-Systems-Whisperer.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Joe-Omaidi-The-Systems-Whisperer-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Jacques-Maeda-The-Rebuilder.jpg": {
+    "defaultRel": "2025/07/Jacques-Maeda-The-Rebuilder.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Jacques-Maeda-The-Rebuilder.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Jacques-Maeda-The-Rebuilder-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Harsh-Mathur-The-Grit-Forged-Architect.jpg": {
+    "defaultRel": "2025/07/Harsh-Mathur-The-Grit-Forged-Architect.jpg",
+    "width": 602,
+    "height": 752,
+    "sizes": "(max-width: 602px) 100vw, 602px",
+    "srcset": [
+      {
+        "rel": "2025/07/Harsh-Mathur-The-Grit-Forged-Architect.jpg",
+        "w": 602
+      },
+      {
+        "rel": "2025/07/Harsh-Mathur-The-Grit-Forged-Architect-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Colleen-Hebbert-The-Cybersecurity-Steward.jpg": {
+    "defaultRel": "2025/07/Colleen-Hebbert-The-Cybersecurity-Steward.jpg",
+    "width": 600,
+    "height": 749,
+    "sizes": "(max-width: 600px) 100vw, 600px",
+    "srcset": [
+      {
+        "rel": "2025/07/Colleen-Hebbert-The-Cybersecurity-Steward.jpg",
+        "w": 600
+      },
+      {
+        "rel": "2025/07/Colleen-Hebbert-The-Cybersecurity-Steward-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Amitya-Sharma-The-Steady-Hand.jpg": {
+    "defaultRel": "2025/07/Amitya-Sharma-The-Steady-Hand.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Amitya-Sharma-The-Steady-Hand.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Amitya-Sharma-The-Steady-Hand-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Aditya-Sharma-The-Quiet-Strategist.jpg": {
+    "defaultRel": "2025/07/Aditya-Sharma-The-Quiet-Strategist.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Aditya-Sharma-The-Quiet-Strategist.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Aditya-Sharma-The-Quiet-Strategist-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Saurabh-Kerkar-The-Quiet-Fighter.jpg": {
+    "defaultRel": "2025/07/Saurabh-Kerkar-The-Quiet-Fighter.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Saurabh-Kerkar-The-Quiet-Fighter.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Saurabh-Kerkar-The-Quiet-Fighter-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2025/07/Marc-Correia-The-Reluctant-Risk-Taker.jpg": {
+    "defaultRel": "2025/07/Marc-Correia-The-Reluctant-Risk-Taker.jpg",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "rel": "2025/07/Marc-Correia-The-Reluctant-Risk-Taker.jpg",
+        "w": 599
+      },
+      {
+        "rel": "2025/07/Marc-Correia-The-Reluctant-Risk-Taker-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  "/assets/2026/08/David-Nye-The-Innovation-Navigator.jpg": {
+    "defaultRel": "2026/08/David-Nye-The-Innovation-Navigator-1024x576.jpg",
+    "width": 800,
+    "height": 450,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2026/08/David-Nye-The-Innovation-Navigator-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/08/David-Nye-The-Innovation-Navigator-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/08/David-Nye-The-Innovation-Navigator-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/08/David-Nye-The-Innovation-Navigator-1536x864.jpg",
+        "w": 1536
+      },
+      {
+        "rel": "2026/08/David-Nye-The-Innovation-Navigator.jpg",
+        "w": 1920
+      }
+    ]
+  },
+  "/assets/2025/07/Frame-1707482164-1.jpg": {
+    "defaultRel": "2025/07/Frame-1707482164-1-1024x512.jpg",
+    "width": 800,
+    "height": 400,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "rel": "2025/07/Frame-1707482164-1-1024x512.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2025/07/Frame-1707482164-1-300x150.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2025/07/Frame-1707482164-1-768x384.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2025/07/Frame-1707482164-1-1536x768.jpg",
+        "w": 1536
+      },
+      {
+        "rel": "2025/07/Frame-1707482164-1.jpg",
+        "w": 1920
+      }
+    ]
+  },
+  "/assets/2025/07/HoE-x-MT-logo.svg": {
+    "defaultRel": "2025/07/HoE-x-MT-logo.svg",
+    "width": 308,
+    "height": 156,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2025/07/MaintainTechLogo_Horizontal_Primary_Light-1.svg": {
+    "defaultRel": "2025/07/MaintainTechLogo_Horizontal_Primary_Light-1.svg",
+    "width": 184,
+    "height": 39,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder.jpg": {
+    "defaultRel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/07/Narayan-Vishwanathan-The-Payroll-Pathfinder-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder.jpg": {
+    "defaultRel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/Vaibhav-Tiwari-The-Pragmatic-Builder-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/06/John-Hutchinson-The-Introverted-Integrator-1.jpg": {
+    "defaultRel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/John-Hutchinson-The-Introverted-Integrator-1-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/06/Claire-Singleton-The-Curious-Transformer-1.jpg": {
+    "defaultRel": "2026/06/Claire-Singleton-The-Curious-Transformer-1.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/06/Claire-Singleton-The-Curious-Transformer-1.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/06/Claire-Singleton-The-Curious-Transformer-1-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/Claire-Singleton-The-Curious-Transformer-1-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/Claire-Singleton-The-Curious-Transformer-1-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/Claire-Singleton-The-Curious-Transformer-1-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/05/Brandon-Trabon-The-Calm-Course-Corrector.jpg": {
+    "defaultRel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Brandon-Trabon-The-Calm-Course-Corrector-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1.jpg": {
+    "defaultRel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Shireesh-Mishra-The-Instinctive-Strategist-1-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/04/Mike-Robinson-The-Restless-Challenger.jpg": {
+    "defaultRel": "2026/04/Mike-Robinson-The-Restless-Challenger.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/04/Mike-Robinson-The-Restless-Challenger.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/04/Mike-Robinson-The-Restless-Challenger-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/04/Mike-Robinson-The-Restless-Challenger-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/04/Mike-Robinson-The-Restless-Challenger-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/04/Mike-Robinson-The-Restless-Challenger-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/04/Richard-Williams-The-Grounded-Operator-1.jpg": {
+    "defaultRel": "2026/04/Richard-Williams-The-Grounded-Operator-1.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/04/Richard-Williams-The-Grounded-Operator-1.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/04/Richard-Williams-The-Grounded-Operator-1-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/04/Richard-Williams-The-Grounded-Operator-1-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/04/Richard-Williams-The-Grounded-Operator-1-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/04/Richard-Williams-The-Grounded-Operator-1-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/04/Jeff-Chenevey-The-Relational-Leader-blog.jpg": {
+    "defaultRel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/04/Jeff-Chenevey-The-Relational-Leader-blog-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/05/Template-2.jpg": {
+    "defaultRel": "2026/05/Template-2.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/05/Template-2.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/05/Template-2-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/05/Template-2-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/05/Template-2-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Template-2-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2026/04/Umesh-Sharma-The-Accidental-Solution-Lead.jpg": {
+    "defaultRel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sizes": "(max-width: 1920px) 100vw, 1920px",
+    "srcset": [
+      {
+        "rel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead.jpg",
+        "w": 1920
+      },
+      {
+        "rel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead-300x169.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead-1024x576.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead-768x432.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/04/Umesh-Sharma-The-Accidental-Solution-Lead-1536x864.jpg",
+        "w": 1536
+      }
+    ]
+  },
+  "/assets/2025/07/Detail.svg": {
+    "defaultRel": "2025/07/Detail.svg",
+    "width": 879,
+    "height": 643,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2025/07/Detail-1.svg": {
+    "defaultRel": "2025/07/Detail-1.svg",
+    "width": 390,
+    "height": 761,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2026/05/Unknown-1.jpeg": {
+    "defaultRel": "2026/05/Unknown-1-1024x768.jpeg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/05/Unknown-1-1024x768.jpeg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/05/Unknown-1-300x225.jpeg",
+        "w": 300
+      },
+      {
+        "rel": "2026/05/Unknown-1-768x576.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Unknown-1.jpeg",
+        "w": 1280
+      }
+    ]
+  },
+  "/assets/2026/05/Unknown-3.jpeg": {
+    "defaultRel": "2026/05/Unknown-3-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "sizes": "(max-width: 768px) 100vw, 768px",
+    "srcset": [
+      {
+        "rel": "2026/05/Unknown-3-768x1024.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Unknown-3-225x300.jpeg",
+        "w": 225
+      },
+      {
+        "rel": "2026/05/Unknown-3.jpeg",
+        "w": 960
+      }
+    ]
+  },
+  "/assets/2026/05/Unknown-1-1.jpeg": {
+    "defaultRel": "2026/05/Unknown-1-1-1024x768.jpeg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/05/Unknown-1-1-1024x768.jpeg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/05/Unknown-1-1-300x225.jpeg",
+        "w": 300
+      },
+      {
+        "rel": "2026/05/Unknown-1-1-768x576.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/05/Unknown-1-1.jpeg",
+        "w": 1280
+      }
+    ]
+  },
+  "/assets/2025/07/icon.svg": {
+    "defaultRel": "2025/07/icon.svg",
+    "width": 17,
+    "height": 23,
+    "sizes": null,
+    "srcset": []
+  },
+  "/assets/2026/06/IMG_0772.jpeg": {
+    "defaultRel": "2026/06/IMG_0772-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "sizes": "(max-width: 768px) 100vw, 768px",
+    "srcset": [
+      {
+        "rel": "2026/06/IMG_0772-768x1024.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/IMG_0772-225x300.jpeg",
+        "w": 225
+      },
+      {
+        "rel": "2026/06/IMG_0772-1152x1536.jpeg",
+        "w": 1152
+      },
+      {
+        "rel": "2026/06/IMG_0772.jpeg",
+        "w": 1158
+      }
+    ]
+  },
+  "/assets/2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679.jpeg": {
+    "defaultRel": "2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "sizes": "(max-width: 768px) 100vw, 768px",
+    "srcset": [
+      {
+        "rel": "2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679-768x1024.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679-225x300.jpeg",
+        "w": 225
+      },
+      {
+        "rel": "2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679-1152x1536.jpeg",
+        "w": 1152
+      },
+      {
+        "rel": "2026/08/4CC896D2-0088-4ED5-BF6A-FD01FEAE2679.jpeg",
+        "w": 1440
+      }
+    ]
+  },
+  "/assets/2026/08/HEIF-Image.jpeg": {
+    "defaultRel": "2026/08/HEIF-Image-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "sizes": "(max-width: 768px) 100vw, 768px",
+    "srcset": [
+      {
+        "rel": "2026/08/HEIF-Image-768x1024.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/08/HEIF-Image-225x300.jpeg",
+        "w": 225
+      },
+      {
+        "rel": "2026/08/HEIF-Image-1152x1536.jpeg",
+        "w": 1152
+      },
+      {
+        "rel": "2026/08/HEIF-Image.jpeg",
+        "w": 1440
+      }
+    ]
+  },
+  "/assets/2026/08/IMG_0107.jpeg": {
+    "defaultRel": "2026/08/IMG_0107-1024x768.jpeg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/08/IMG_0107-1024x768.jpeg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/08/IMG_0107-300x225.jpeg",
+        "w": 300
+      },
+      {
+        "rel": "2026/08/IMG_0107-768x576.jpeg",
+        "w": 768
+      },
+      {
+        "rel": "2026/08/IMG_0107-1536x1152.jpeg",
+        "w": 1536
+      },
+      {
+        "rel": "2026/08/IMG_0107.jpeg",
+        "w": 1920
+      }
+    ]
+  },
+  "/assets/2026/06/IMG_5324.jpg": {
+    "defaultRel": "2026/06/IMG_5324-1024x768.jpg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/06/IMG_5324-1024x768.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/IMG_5324-300x225.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/IMG_5324-768x576.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/IMG_5324-1536x1152.jpg",
+        "w": 1536
+      },
+      {
+        "rel": "2026/06/IMG_5324-2048x1536.jpg",
+        "w": 2048
+      }
+    ]
+  },
+  "/assets/2026/06/IMG_4315.jpg": {
+    "defaultRel": "2026/06/IMG_4315-1024x768.jpg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/06/IMG_4315-1024x768.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/IMG_4315-300x225.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/IMG_4315-768x576.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/IMG_4315-1536x1152.jpg",
+        "w": 1536
+      },
+      {
+        "rel": "2026/06/IMG_4315-2048x1536.jpg",
+        "w": 2048
+      }
+    ]
+  },
+  "/assets/2026/07/Personal-Photo.jpg": {
+    "defaultRel": "2026/07/Personal-Photo-740x1024.jpg",
+    "width": 740,
+    "height": 1024,
+    "sizes": "(max-width: 740px) 100vw, 740px",
+    "srcset": [
+      {
+        "rel": "2026/07/Personal-Photo-740x1024.jpg",
+        "w": 740
+      },
+      {
+        "rel": "2026/07/Personal-Photo-217x300.jpg",
+        "w": 217
+      },
+      {
+        "rel": "2026/07/Personal-Photo-768x1063.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/07/Personal-Photo-1110x1536.jpg",
+        "w": 1110
+      },
+      {
+        "rel": "2026/07/Personal-Photo.jpg",
+        "w": 1387
+      }
+    ]
+  },
+  "/assets/2026/06/20250413_162819.jpg": {
+    "defaultRel": "2026/06/20250413_162819-1024x768.jpg",
+    "width": 1024,
+    "height": 768,
+    "sizes": "(max-width: 1024px) 100vw, 1024px",
+    "srcset": [
+      {
+        "rel": "2026/06/20250413_162819-1024x768.jpg",
+        "w": 1024
+      },
+      {
+        "rel": "2026/06/20250413_162819-300x225.jpg",
+        "w": 300
+      },
+      {
+        "rel": "2026/06/20250413_162819-768x576.jpg",
+        "w": 768
+      },
+      {
+        "rel": "2026/06/20250413_162819-1536x1152.jpg",
+        "w": 1536
+      },
+      {
+        "rel": "2026/06/20250413_162819.jpg",
+        "w": 1920
+      }
+    ]
+  }
+}

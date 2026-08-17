@@ -1,0 +1,979 @@
+{
+  "site": {
+    "title": "Humans Of ERP",
+    "url": "https://humansoferp.com",
+    "description": "Real Stories of Real People Shaping the ERP Landscape Today",
+    "sourceUrl": "https://humansoferp.com"
+  },
+  "tokens": {
+    "colors": {
+      "2768541": {
+        "title": "Grays - Neutral 700",
+        "color": "#4A4E5A"
+      },
+      "2868377": {
+        "title": "Grays - Neutral 950",
+        "color": "#25272C"
+      },
+      "3802972": {
+        "title": "Primary 700",
+        "color": "#315573"
+      },
+      "5500055": {
+        "title": "Grays - Cool 400",
+        "color": "#A6BDD3"
+      },
+      "7524510": {
+        "title": "Accent 300",
+        "color": "#82D8DE"
+      },
+      "primary": {
+        "title": "Primary 950",
+        "color": "#101820"
+      },
+      "secondary": {
+        "title": "Secondary 950",
+        "color": "#07272D"
+      },
+      "text": {
+        "title": "Text",
+        "color": "#5B616E"
+      },
+      "accent": {
+        "title": "Accent 600",
+        "color": "#257A88"
+      },
+      "103e6bd": {
+        "title": "Primary 50",
+        "color": "#F4F7FB"
+      },
+      "e1de440": {
+        "title": "Primary 100",
+        "color": "#E9EFF5"
+      },
+      "5b7e515": {
+        "title": "Primary 200",
+        "color": "#CEDDE9"
+      },
+      "a164523": {
+        "title": "Primary 300",
+        "color": "#A2C1D7"
+      },
+      "3033b99": {
+        "title": "Primary 400",
+        "color": "#709FC0"
+      },
+      "f52e88c": {
+        "title": "Primary 500",
+        "color": "#4E84A9"
+      },
+      "59f8953": {
+        "title": "Primary 600",
+        "color": "#3C6A8D"
+      },
+      "340082a": {
+        "title": "Primary 800",
+        "color": "#2C4960"
+      },
+      "5d928ca": {
+        "title": "Primary 900",
+        "color": "#293E51"
+      },
+      "afb9718": {
+        "title": "Secondary 50",
+        "color": "#F1FCFC"
+      },
+      "f2fb3a0": {
+        "title": "Secondary 100",
+        "color": "#CFF8F6"
+      },
+      "df10f30": {
+        "title": "Secondary 200",
+        "color": "#9FF0EF"
+      },
+      "19d5986": {
+        "title": "Secondary 300",
+        "color": "#67DEE1"
+      },
+      "9c8868b": {
+        "title": "Secondary 400",
+        "color": "#38C1C9"
+      },
+      "0ec5cd1": {
+        "title": "Secondary 500",
+        "color": "#1FA3AD"
+      },
+      "22a66b6": {
+        "title": "Secondary 600",
+        "color": "#16808B"
+      },
+      "1df7966": {
+        "title": "Secondary 700",
+        "color": "#16666F"
+      },
+      "44669af": {
+        "title": "Secondary 800",
+        "color": "#165159"
+      },
+      "72a67e5": {
+        "title": "Secondary 900",
+        "color": "#17444A"
+      },
+      "87d4e16": {
+        "title": "Accent 50",
+        "color": "#F0FBFA"
+      },
+      "ff32d21": {
+        "title": "Accent 100",
+        "color": "#D8F5F5"
+      },
+      "0baf72e": {
+        "title": "Accent 200",
+        "color": "#B5E9EC"
+      },
+      "511971e": {
+        "title": "Accent 400",
+        "color": "#48BEC8"
+      },
+      "94b6cae": {
+        "title": "Accent 500",
+        "color": "#2DA2AD"
+      },
+      "8220e68": {
+        "title": "Accent 700",
+        "color": "#266A78"
+      },
+      "b6f5b14": {
+        "title": "Accent 800",
+        "color": "#275863"
+      },
+      "619ab0a": {
+        "title": "Accent 900",
+        "color": "#244A55"
+      },
+      "f8f0c65": {
+        "title": "Accent 950",
+        "color": "#133039"
+      },
+      "31d1ad5": {
+        "title": "Text Light",
+        "color": "#FAFAFA"
+      },
+      "1a46ecc": {
+        "title": "Text Dark",
+        "color": "#040E10"
+      },
+      "67053d3": {
+        "title": "Background Light",
+        "color": "#F5F5F1"
+      },
+      "caac81c": {
+        "title": "Background Dark",
+        "color": "#101820"
+      },
+      "e864ef8": {
+        "title": "Neutral Light",
+        "color": "#FFFFFF"
+      },
+      "48e639c": {
+        "title": "Neutral Dark",
+        "color": "#000000"
+      },
+      "c7d0c90": {
+        "title": "Grays - Cool 50",
+        "color": "#F3F8FA"
+      },
+      "4a0d63c": {
+        "title": "Grays - Cool 100",
+        "color": "#EAF1F5"
+      },
+      "2e55e14": {
+        "title": "Grays - Cool 200",
+        "color": "#D8E5ED"
+      },
+      "d7eeb96": {
+        "title": "Grays - Cool 300",
+        "color": "#C0D4E1"
+      },
+      "d12302a": {
+        "title": "Grays - Cool 500",
+        "color": "#8FA6C5"
+      },
+      "16454d2": {
+        "title": "Grays - Cool 600",
+        "color": "#7B90B6"
+      },
+      "37ec3fe": {
+        "title": "Grays - Cool 700",
+        "color": "#65789D"
+      },
+      "d63079e": {
+        "title": "Grays - Cool 800",
+        "color": "#54647F"
+      },
+      "b06944a": {
+        "title": "Grays - Cool 900",
+        "color": "#485467"
+      },
+      "50041c6": {
+        "title": "Grays - Cool 950",
+        "color": "#2A303C"
+      },
+      "d3e0706": {
+        "title": "Grays - Warm 50",
+        "color": "#F4F3F2"
+      },
+      "9fef1a3": {
+        "title": "Grays - Warm 100",
+        "color": "#E2E1DF"
+      },
+      "8581df9": {
+        "title": "Grays - Warm 200",
+        "color": "#C8C4C0"
+      },
+      "10beb81": {
+        "title": "Grays - Warm 300",
+        "color": "#A8A29C"
+      },
+      "980a5e1": {
+        "title": "Grays - Warm 400",
+        "color": "#8F8780"
+      },
+      "f40b36f": {
+        "title": "Grays - Warm 500",
+        "color": "#79716B"
+      },
+      "7d03682": {
+        "title": "Grays - Warm 600",
+        "color": "#6E6460"
+      },
+      "16c9853": {
+        "title": "Grays - Warm 700",
+        "color": "#59524F"
+      },
+      "2c333e8": {
+        "title": "Grays - Warm 800",
+        "color": "#4D4846"
+      },
+      "f276499": {
+        "title": "Grays - Warm 900",
+        "color": "#453F3E"
+      },
+      "ca97582": {
+        "title": "Grays - Warm 950",
+        "color": "#262322"
+      },
+      "abce372": {
+        "title": "Grays - Neutral 50",
+        "color": "#F7F8F8"
+      },
+      "99f7c1f": {
+        "title": "Grays - Neutral 100",
+        "color": "#EDEEF1"
+      },
+      "38dc881": {
+        "title": "Grays - Neutral 200",
+        "color": "#D8DBDF"
+      },
+      "ba306e3": {
+        "title": "Grays - Neutral 300",
+        "color": "#B6BAC3"
+      },
+      "e0c264c": {
+        "title": "Grays - Neutral 400",
+        "color": "#8E95A2"
+      },
+      "dd24b30": {
+        "title": "Grays - Neutral 500",
+        "color": "#6B7280"
+      },
+      "f09f8b9": {
+        "title": "Grays - Neutral 600",
+        "color": "#5B616E"
+      },
+      "78bf995": {
+        "title": "Grays - Neutral 800",
+        "color": "#40444C"
+      },
+      "e90ee96": {
+        "title": "Grays - Neutral 900",
+        "color": "#383A42"
+      }
+    },
+    "typography": {
+      "primary": {
+        "title": "Primary (Don't change or use)",
+        "family": "Roboto",
+        "weight": "600"
+      },
+      "secondary": {
+        "title": "Secondary (Don't change or use)",
+        "family": "Roboto Slab",
+        "weight": "400"
+      },
+      "text": {
+        "title": "Text",
+        "family": "Roboto",
+        "weight": "400"
+      },
+      "accent": {
+        "title": "Accent (Don't change or use)",
+        "family": "Roboto",
+        "weight": "500"
+      },
+      "378db4b": {
+        "title": "Title Hero",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(2.625rem, 2.2491rem + 1.6037vw, 3.5rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.1,
+          "sizes": []
+        }
+      },
+      "5615c1f": {
+        "title": "H1",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(2.5rem, 2.2852rem + 0.9164vw, 3rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.3,
+          "sizes": []
+        }
+      },
+      "390da49": {
+        "title": "H2",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(2rem, 1.5704rem + 1.8328vw, 3rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.3,
+          "sizes": []
+        }
+      },
+      "eb273d9": {
+        "title": "H3",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(1.75rem, 1.6426rem + 0.4582vw, 2rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.3,
+          "sizes": []
+        }
+      },
+      "abf6c38": {
+        "title": "H4",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(1.5rem, 1.3926rem + 0.4582vw, 1.75rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.4,
+          "sizes": []
+        }
+      },
+      "3e8ee1c": {
+        "title": "H5",
+        "family": "Albert Sans",
+        "weight": "700",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(1.25rem, 1.1426rem + 0.4582vw, 1.5rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.4,
+          "sizes": []
+        }
+      },
+      "2fe66a8": {
+        "title": "H6",
+        "family": "Albert Sans",
+        "weight": "600",
+        "size": {
+          "unit": "custom",
+          "size": "clamp(1.125rem, 1.0713rem + 0.2291vw, 1.25rem);",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.4,
+          "sizes": []
+        }
+      },
+      "e1d2112": {
+        "title": "Sub Header",
+        "family": "Albert Sans",
+        "weight": "600",
+        "size": {
+          "unit": "custom",
+          "size": "0.875rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.6,
+          "sizes": []
+        }
+      },
+      "1ba3724": {
+        "title": "Text XL",
+        "family": "Vela Sans",
+        "weight": "400",
+        "size": {
+          "unit": "custom",
+          "size": "1.5rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.5,
+          "sizes": []
+        }
+      },
+      "5725ce8": {
+        "title": "Text LG",
+        "family": "Vela Sans",
+        "weight": "400",
+        "size": {
+          "unit": "custom",
+          "size": "1.375rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.6,
+          "sizes": []
+        }
+      },
+      "9c0bb5a": {
+        "title": "Text MD",
+        "family": "Vela Sans",
+        "weight": "400",
+        "size": {
+          "unit": "custom",
+          "size": "1.125rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.6,
+          "sizes": []
+        }
+      },
+      "d2cd023": {
+        "title": "Text SM",
+        "family": "Vela Sans",
+        "weight": "400",
+        "size": {
+          "unit": "custom",
+          "size": "1rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.7,
+          "sizes": []
+        }
+      },
+      "6263f25": {
+        "title": "Text XS",
+        "family": "Vela Sans",
+        "weight": "400",
+        "size": {
+          "unit": "custom",
+          "size": "0.875rem;",
+          "sizes": []
+        },
+        "lineHeight": {
+          "unit": "em",
+          "size": 1.5,
+          "sizes": []
+        }
+      }
+    },
+    "layout": {
+      "containerWidth": {
+        "unit": "px",
+        "size": 1920,
+        "sizes": []
+      },
+      "body": {}
+    },
+    "kitId": "6"
+  },
+  "fonts": [
+    {
+      "family": "Vela Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/VelaSans-Regular.ttf"
+          }
+        },
+        {
+          "weight": "600",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/VelaSans-SemiBold.ttf"
+          }
+        },
+        {
+          "weight": "700",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/VelaSans-Bold.ttf"
+          }
+        }
+      ]
+    },
+    {
+      "family": "Albert Sans",
+      "faces": [
+        {
+          "weight": "normal",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/AlbertSans-Regular.ttf"
+          }
+        },
+        {
+          "weight": "600",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/AlbertSans-SemiBold.ttf"
+          }
+        },
+        {
+          "weight": "700",
+          "style": "normal",
+          "files": {
+            "ttf": "/assets/2025/07/AlbertSans-Bold.ttf"
+          }
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "462",
+      "parent": "0",
+      "order": 1,
+      "objectType": "page",
+      "menu": "main-header",
+      "label": "Home",
+      "url": "/",
+      "children": []
+    },
+    {
+      "id": "38",
+      "parent": "0",
+      "order": 2,
+      "objectType": "custom",
+      "menu": "main-header",
+      "label": "About",
+      "url": "/#about",
+      "children": []
+    },
+    {
+      "id": "312",
+      "parent": "0",
+      "order": 3,
+      "objectType": "page",
+      "menu": "main-header",
+      "label": "Read Stories",
+      "url": "/stories",
+      "children": []
+    },
+    {
+      "id": "381",
+      "parent": "0",
+      "order": 4,
+      "objectType": "custom",
+      "menu": "main-header",
+      "label": "Submit a Story",
+      "url": "https://airenpetalbert.notion.site/215015e3e912804980cbfb80ccdea2ce",
+      "children": []
+    }
+  ],
+  "terms": [
+    {
+      "slug": "leadership",
+      "name": "Leadership",
+      "count": 22
+    },
+    {
+      "slug": "courage",
+      "name": "Courage",
+      "count": 19
+    },
+    {
+      "slug": "women-in-erp",
+      "name": "Women in ERP",
+      "count": 15
+    },
+    {
+      "slug": "curiosity",
+      "name": "Curiosity",
+      "count": 13
+    },
+    {
+      "slug": "adapting",
+      "name": "Adapting",
+      "count": 12
+    },
+    {
+      "slug": "people-first",
+      "name": "People First",
+      "count": 11
+    },
+    {
+      "slug": "resilience",
+      "name": "Resilience",
+      "count": 11
+    },
+    {
+      "slug": "learning",
+      "name": "Learning",
+      "count": 8
+    },
+    {
+      "slug": "mentorship",
+      "name": "Mentorship",
+      "count": 8
+    },
+    {
+      "slug": "parenthood",
+      "name": "Parenthood",
+      "count": 8
+    },
+    {
+      "slug": "sap",
+      "name": "SAP",
+      "count": 8
+    },
+    {
+      "slug": "ai",
+      "name": "AI",
+      "count": 7
+    },
+    {
+      "slug": "humility",
+      "name": "Humility",
+      "count": 7
+    },
+    {
+      "slug": "migration",
+      "name": "Migration",
+      "count": 7
+    },
+    {
+      "slug": "authenticity",
+      "name": "Authenticity",
+      "count": 6
+    },
+    {
+      "slug": "belonging",
+      "name": "Belonging",
+      "count": 6
+    },
+    {
+      "slug": "family",
+      "name": "Family",
+      "count": 6
+    },
+    {
+      "slug": "reinvention",
+      "name": "Reinvention",
+      "count": 5
+    },
+    {
+      "slug": "vulnerability",
+      "name": "Vulnerability",
+      "count": 5
+    },
+    {
+      "slug": "discipline",
+      "name": "Discipline",
+      "count": 4
+    },
+    {
+      "slug": "empathy",
+      "name": "Empathy",
+      "count": 4
+    },
+    {
+      "slug": "fatherhood",
+      "name": "Fatherhood",
+      "count": 4
+    },
+    {
+      "slug": "diversity",
+      "name": "Diversity",
+      "count": 3
+    },
+    {
+      "slug": "ethics",
+      "name": "Ethics",
+      "count": 3
+    },
+    {
+      "slug": "grit",
+      "name": "Grit",
+      "count": 3
+    },
+    {
+      "slug": "principles",
+      "name": "Principles",
+      "count": 3
+    },
+    {
+      "slug": "purpose",
+      "name": "Purpose",
+      "count": 3
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "count": 3
+    },
+    {
+      "slug": "burnout",
+      "name": "Burnout",
+      "count": 2
+    },
+    {
+      "slug": "confidence",
+      "name": "Confidence",
+      "count": 2
+    },
+    {
+      "slug": "consistency",
+      "name": "Consistency",
+      "count": 2
+    },
+    {
+      "slug": "humanity",
+      "name": "Humanity",
+      "count": 2
+    },
+    {
+      "slug": "motherhood",
+      "name": "Motherhood",
+      "count": 2
+    },
+    {
+      "slug": "staring-over",
+      "name": "Staring Over",
+      "count": 2
+    },
+    {
+      "slug": "ancient-wisdom",
+      "name": "Ancient Wisdom",
+      "count": 1
+    },
+    {
+      "slug": "boundaries",
+      "name": "Boundaries",
+      "count": 1
+    },
+    {
+      "slug": "data",
+      "name": "Data",
+      "count": 1
+    },
+    {
+      "slug": "failure",
+      "name": "Failure",
+      "count": 1
+    },
+    {
+      "slug": "faith",
+      "name": "Faith",
+      "count": 1
+    },
+    {
+      "slug": "fragility",
+      "name": "Fragility",
+      "count": 1
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "count": 1
+    },
+    {
+      "slug": "humour",
+      "name": "Humour",
+      "count": 1
+    },
+    {
+      "slug": "instinct",
+      "name": "Instinct",
+      "count": 1
+    },
+    {
+      "slug": "integrity",
+      "name": "Integrity",
+      "count": 1
+    },
+    {
+      "slug": "introvert",
+      "name": "Introvert",
+      "count": 1
+    },
+    {
+      "slug": "love",
+      "name": "Love",
+      "count": 1
+    },
+    {
+      "slug": "mental-health",
+      "name": "Mental Health",
+      "count": 1
+    },
+    {
+      "slug": "military",
+      "name": "Military",
+      "count": 1
+    },
+    {
+      "slug": "occupational-health",
+      "name": "Occupational Health",
+      "count": 1
+    },
+    {
+      "slug": "payroll",
+      "name": "Payroll",
+      "count": 1
+    },
+    {
+      "slug": "sports",
+      "name": "Sports",
+      "count": 1
+    },
+    {
+      "slug": "strength",
+      "name": "Strength",
+      "count": 1
+    },
+    {
+      "slug": "trust",
+      "name": "Trust",
+      "count": 1
+    },
+    {
+      "slug": "truth",
+      "name": "Truth",
+      "count": 1
+    },
+    {
+      "slug": "uncertainty",
+      "name": "Uncertainty",
+      "count": 1
+    }
+  ],
+  "options": {},
+  "permalinks": {
+    "3": "/",
+    "13": "/vela-sans",
+    "17": "/albert-sans",
+    "44": "/",
+    "45": "/stories/wp-global-styles-mbs-theme-child",
+    "188": "/master-cta-button",
+    "249": "/stories",
+    "326": "/stories/tara-brennan-on-leading-with-heart-holding-space-and-remembering-to-be-human-first",
+    "330": "/stories/aditya-sharma-on-2am-wake-up-calls-walking-away-to-grow-and-finding-meaning-in-erp",
+    "335": "/stories/steve-turner-on-diving-deep-from-sap-systems-to-the-ocean-floor",
+    "338": "/stories/vishal-bhatia-on-partnership-parenthood-and-people-first-leadership-in-erp",
+    "342": "/stories/jacques-maeda-on-starting-over-finding-structure-and-building-a-life-through-erp",
+    "345": "/stories/shalini-misra-on-living-unfiltered-leaving-burnout-behind-and-coaching-with-courage",
+    "409": "/contact-us",
+    "433": "/contact-form",
+    "538": "/subscribe-form",
+    "591": "/stories/sharad-narayan-on-courage-commitment-and-what-truly-matters-in-the-end",
+    "594": "/stories/joe-omaidi-on-building-erp-systems-with-empathy-and-a-bit-of-blunt-honesty",
+    "624": "/stories/saurabh-kerkar-on-showing-up-staying-grounded-and-leading-with-quiet-strength",
+    "628": "/stories/divya-varshney-on-moving-countries-raising-kids-and-rebuilding-a-career",
+    "633": "/stories/bala-lakshmanan-on-building-with-grit-grace-and-foundations-you-cant-always-see",
+    "648": "/stories/vijay-sachan-on-the-architecture-of-becoming-and-the-journey-beyond-erp",
+    "653": "/stories/marc-correia-on-risk-reinvention-and-believing-in-something-bigger",
+    "656": "/stories/harsh-mathur-on-leaving-comfort-leading-with-care-and-solving-for-real-impact",
+    "660": "/stories/amitya-sharma-on-golf-grace-and-getting-back-up-again",
+    "673": "/stories/colleen-hebbert-on-adapting-juggling-and-speaking-human-in-tech",
+    "676": "/stories/lynn-scheinman-on-how-defence-discipline-led-to-sap-success",
+    "691": "/stories/vineeta-kadian-on-the-power-of-introversion-and-silent-determination",
+    "693": "/stories/rohan-kasar-on-adoption-ai-and-the-human-side-of-tech",
+    "695": "/stories/jasmine-oreilly-on-dancing-through-life-and-work",
+    "697": "/stories/kamal-sehrawat-on-courage-curiosity-and-nurturing-connections-in-tech",
+    "699": "/stories/nicole-dundas-on-building-bridges-through-people-and-technology",
+    "721": "/stories/chandra-shekhar-on-solving-problems-beyond-the-counter",
+    "726": "/stories/judith-ocallaghan-on-applying-ancient-wisdom-to-modern-solutions",
+    "730": "/stories/saurabh-goel-on-balancing-authority-and-care-like-a-father",
+    "735": "/stories/khalil-rajwani-on-integrity-in-erp-and-human-centered-leadership",
+    "742": "/stories/rahul-jacob-on-connecting-the-dots-in-life-and-erp",
+    "746": "/stories/riane-avila-on-the-weight-she-carried-and-the-choice-to-breathe",
+    "754": "/stories/sahil-naqvi-on-building-in-erp-with-purpose-and-humanity",
+    "762": "/stories/divya-narayan-on-never-stopping-even-when-the-path-disappears",
+    "765": "/stories/shyamlal-christudas-on-trusting-the-journey-and-embracing-uncertainty",
+    "772": "/stories/tanya-jenke-on-curiosity-resilience-and-the-human-side-of-safety",
+    "775": "/",
+    "781": "/stories/seb-bliss-on-starting-again-soft-skills-and-finding-home",
+    "789": "/stories/saurabh-asthana-on-leading-with-resilience-and-tranquility",
+    "794": "/stories/jason-lante-on-staying-human-in-a-world-of-systems-and-change",
+    "800": "/stories/keagen-georgiou-on-building-systems-people-can-love",
+    "810": "/stories/jon-pepper-on-being-shaped-by-discipline-and-defined-by-excellence",
+    "829": "/stories/prasanna-paudel-on-consistency-courage-and-learning-in-public",
+    "835": "/stories/satvinder-singh-on-doing-the-right-thing-at-the-right-time-and-learning-how-to-slow-down",
+    "838": "/stories/karen-zwissler-on-learning-to-drive-every-car-with-confidence",
+    "844": "/stories/chris-collins-on-sliding-doors-sap-and-never-narrowing-your-world",
+    "851": "/stories/allison-arandez-on-opportunity-confidence-and-a-new-era-for-women-in-tech",
+    "857": "/stories/simon-pate-on-staying-calm-in-the-chaos-of-erp",
+    "862": "/stories/marissa-shipley-on-designing-systems-that-work-for-humans",
+    "871": "/stories/hanlie-bezuidenhout-on-finding-balance-in-the-chaos-of-transformation",
+    "881": "/stories/david-ogilvie-on-why-principles-matter-more-than-opportunity",
+    "886": "/stories/jason-hu-on-finding-mission-control-inside-erp",
+    "891": "/stories/raphael-maciel-on-when-triumph-and-fragility-collide",
+    "897": "/stories/sameer-vij-on-trust-truth-and-understanding-the-real-problem",
+    "901": "/stories/sam-borkar-on-building-a-life-that-doesnt-fit-in-one-lane",
+    "906": "/stories/umesh-sharma-on-growing-without-a-plan",
+    "911": "/stories/jeff-chenevey-on-why-it-was-never-about-the-technology",
+    "917": "/stories/richard-williams-on-staying-grounded-in-a-constantly-changing-erp-world",
+    "923": "/stories/mike-robinson-on-chasing-success-while-questioning-the-system",
+    "931": "/stories/shireesh-mishra-on-listening-to-both-the-data-and-the-instinct",
+    "935": "/stories/brandon-trabon-on-seeing-the-warning-signs-others-miss",
+    "942": "/stories/one-year-of-humans-of-erp-what-fifty-conversations-taught-me-about-this-industry",
+    "947": "/stories/claire-singleton-on-choosing-curiosity-over-comfort",
+    "952": "/stories/john-hutchinson-on-leading-with-calm-in-a-world-of-complexity",
+    "957": "/stories/vaibhav-tiwari-on-why-success-is-a-journey-not-a-destination",
+    "963": "/stories/narayan-vishwanathan-on-staying-humble-staying-curious-and-seeing-the-human-side-of-payroll",
+    "967": "/stories/david-nye-on-staying-curious-through-every-wave-of-technology"
+  }
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "gallery-1",
+    "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af-819x1024.jpg",
+    "alt": "",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af-240x300.jpg",
+        "w": 240
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af-768x960.jpg",
+        "w": 768
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.48_c679a8af.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  {
+    "id": "gallery-2",
+    "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592-819x1024.jpg",
+    "alt": "",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592-240x300.jpg",
+        "w": 240
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592-768x960.jpg",
+        "w": 768
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ef684592.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  {
+    "id": "gallery-3",
+    "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf-819x1024.jpg",
+    "alt": "",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf-240x300.jpg",
+        "w": 240
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf-768x960.jpg",
+        "w": 768
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.26_ff0847cf.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  {
+    "id": "gallery-4",
+    "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-819x1024.jpg",
+    "alt": "",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-240x300.jpg",
+        "w": 240
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f-768x960.jpg",
+        "w": 768
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_b92fd49f.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  {
+    "id": "gallery-5",
+    "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-819x1024.jpg",
+    "alt": "",
+    "width": 800,
+    "height": 1000,
+    "sizes": "(max-width: 800px) 100vw, 800px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-819x1024.jpg",
+        "w": 819
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-240x300.jpg",
+        "w": 240
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b-768x960.jpg",
+        "w": 768
+      },
+      {
+        "src": "/assets/2025/07/WhatsApp-Image-2025-07-21-at-22.44.25_a02ed67b.jpg",
+        "w": 1024
+      }
+    ]
+  },
+  {
+    "id": "gallery-6",
+    "src": "/assets/2025/07/Joe-Omaidi-The-Systems-Whisperer.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Joe-Omaidi-The-Systems-Whisperer.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Joe-Omaidi-The-Systems-Whisperer-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-7",
+    "src": "/assets/2025/07/Jacques-Maeda-The-Rebuilder.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Jacques-Maeda-The-Rebuilder.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Jacques-Maeda-The-Rebuilder-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-8",
+    "src": "/assets/2025/07/Harsh-Mathur-The-Grit-Forged-Architect.jpg",
+    "alt": "",
+    "width": 602,
+    "height": 752,
+    "sizes": "(max-width: 602px) 100vw, 602px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Harsh-Mathur-The-Grit-Forged-Architect.jpg",
+        "w": 602
+      },
+      {
+        "src": "/assets/2025/07/Harsh-Mathur-The-Grit-Forged-Architect-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-9",
+    "src": "/assets/2025/07/Colleen-Hebbert-The-Cybersecurity-Steward.jpg",
+    "alt": "",
+    "width": 600,
+    "height": 749,
+    "sizes": "(max-width: 600px) 100vw, 600px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Colleen-Hebbert-The-Cybersecurity-Steward.jpg",
+        "w": 600
+      },
+      {
+        "src": "/assets/2025/07/Colleen-Hebbert-The-Cybersecurity-Steward-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-10",
+    "src": "/assets/2025/07/Amitya-Sharma-The-Steady-Hand.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Amitya-Sharma-The-Steady-Hand.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Amitya-Sharma-The-Steady-Hand-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-11",
+    "src": "/assets/2025/07/Aditya-Sharma-The-Quiet-Strategist.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Aditya-Sharma-The-Quiet-Strategist.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Aditya-Sharma-The-Quiet-Strategist-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-12",
+    "src": "/assets/2025/07/Saurabh-Kerkar-The-Quiet-Fighter.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Saurabh-Kerkar-The-Quiet-Fighter.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Saurabh-Kerkar-The-Quiet-Fighter-240x300.jpg",
+        "w": 240
+      }
+    ]
+  },
+  {
+    "id": "gallery-13",
+    "src": "/assets/2025/07/Marc-Correia-The-Reluctant-Risk-Taker.jpg",
+    "alt": "",
+    "width": 599,
+    "height": 749,
+    "sizes": "(max-width: 599px) 100vw, 599px",
+    "srcset": [
+      {
+        "src": "/assets/2025/07/Marc-Correia-The-Reluctant-Risk-Taker.jpg",
+        "w": 599
+      },
+      {
+        "src": "/assets/2025/07/Marc-Correia-The-Reluctant-Risk-Taker-240x300.jpg",
+        "w": 240
+      }
+    ]
+  }
+]

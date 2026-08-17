@@ -1,0 +1,139 @@
+.elementor-kit-6{--e-global-color-primary:#101820;--e-global-color-secondary:#07272D;--e-global-color-text:#5B616E;--e-global-color-accent:#257A88;--e-global-color-103e6bd:#F4F7FB;--e-global-color-e1de440:#E9EFF5;--e-global-color-5b7e515:#CEDDE9;--e-global-color-a164523:#A2C1D7;--e-global-color-3033b99:#709FC0;--e-global-color-f52e88c:#4E84A9;--e-global-color-59f8953:#3C6A8D;--e-global-color-3802972:#315573;--e-global-color-340082a:#2C4960;--e-global-color-5d928ca:#293E51;--e-global-color-afb9718:#F1FCFC;--e-global-color-f2fb3a0:#CFF8F6;--e-global-color-df10f30:#9FF0EF;--e-global-color-19d5986:#67DEE1;--e-global-color-9c8868b:#38C1C9;--e-global-color-0ec5cd1:#1FA3AD;--e-global-color-22a66b6:#16808B;--e-global-color-1df7966:#16666F;--e-global-color-44669af:#165159;--e-global-color-72a67e5:#17444A;--e-global-color-87d4e16:#F0FBFA;--e-global-color-ff32d21:#D8F5F5;--e-global-color-0baf72e:#B5E9EC;--e-global-color-7524510:#82D8DE;--e-global-color-511971e:#48BEC8;--e-global-color-94b6cae:#2DA2AD;--e-global-color-8220e68:#266A78;--e-global-color-b6f5b14:#275863;--e-global-color-619ab0a:#244A55;--e-global-color-f8f0c65:#133039;--e-global-color-31d1ad5:#FAFAFA;--e-global-color-1a46ecc:#040E10;--e-global-color-67053d3:#F5F5F1;--e-global-color-caac81c:#101820;--e-global-color-e864ef8:#FFFFFF;--e-global-color-48e639c:#000000;--e-global-color-c7d0c90:#F3F8FA;--e-global-color-4a0d63c:#EAF1F5;--e-global-color-2e55e14:#D8E5ED;--e-global-color-d7eeb96:#C0D4E1;--e-global-color-5500055:#A6BDD3;--e-global-color-d12302a:#8FA6C5;--e-global-color-16454d2:#7B90B6;--e-global-color-37ec3fe:#65789D;--e-global-color-d63079e:#54647F;--e-global-color-b06944a:#485467;--e-global-color-50041c6:#2A303C;--e-global-color-d3e0706:#F4F3F2;--e-global-color-9fef1a3:#E2E1DF;--e-global-color-8581df9:#C8C4C0;--e-global-color-10beb81:#A8A29C;--e-global-color-980a5e1:#8F8780;--e-global-color-f40b36f:#79716B;--e-global-color-7d03682:#6E6460;--e-global-color-16c9853:#59524F;--e-global-color-2c333e8:#4D4846;--e-global-color-f276499:#453F3E;--e-global-color-ca97582:#262322;--e-global-color-abce372:#F7F8F8;--e-global-color-99f7c1f:#EDEEF1;--e-global-color-38dc881:#D8DBDF;--e-global-color-ba306e3:#B6BAC3;--e-global-color-e0c264c:#8E95A2;--e-global-color-dd24b30:#6B7280;--e-global-color-f09f8b9:#5B616E;--e-global-color-2768541:#4A4E5A;--e-global-color-78bf995:#40444C;--e-global-color-e90ee96:#383A42;--e-global-color-2868377:#25272C;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-378db4b-font-family:"Albert Sans";--e-global-typography-378db4b-font-size:clamp(2.625rem, 2.2491rem + 1.6037vw, 3.5rem);--e-global-typography-378db4b-font-weight:700;--e-global-typography-378db4b-text-transform:uppercase;--e-global-typography-378db4b-line-height:1.1em;--e-global-typography-5615c1f-font-family:"Albert Sans";--e-global-typography-5615c1f-font-size:clamp(2.5rem, 2.2852rem + 0.9164vw, 3rem);--e-global-typography-5615c1f-font-weight:700;--e-global-typography-5615c1f-text-transform:uppercase;--e-global-typography-5615c1f-line-height:1.3em;--e-global-typography-390da49-font-family:"Albert Sans";--e-global-typography-390da49-font-size:clamp(2rem, 1.5704rem + 1.8328vw, 3rem);--e-global-typography-390da49-font-weight:700;--e-global-typography-390da49-text-transform:uppercase;--e-global-typography-390da49-line-height:1.3em;--e-global-typography-eb273d9-font-family:"Albert Sans";--e-global-typography-eb273d9-font-size:clamp(1.75rem, 1.6426rem + 0.4582vw, 2rem);--e-global-typography-eb273d9-font-weight:700;--e-global-typography-eb273d9-text-transform:uppercase;--e-global-typography-eb273d9-line-height:1.3em;--e-global-typography-abf6c38-font-family:"Albert Sans";--e-global-typography-abf6c38-font-size:clamp(1.5rem, 1.3926rem + 0.4582vw, 1.75rem);--e-global-typography-abf6c38-font-weight:700;--e-global-typography-abf6c38-text-transform:uppercase;--e-global-typography-abf6c38-line-height:1.4em;--e-global-typography-3e8ee1c-font-family:"Albert Sans";--e-global-typography-3e8ee1c-font-size:clamp(1.25rem, 1.1426rem + 0.4582vw, 1.5rem);--e-global-typography-3e8ee1c-font-weight:700;--e-global-typography-3e8ee1c-text-transform:uppercase;--e-global-typography-3e8ee1c-line-height:1.4em;--e-global-typography-2fe66a8-font-family:"Albert Sans";--e-global-typography-2fe66a8-font-size:clamp(1.125rem, 1.0713rem + 0.2291vw, 1.25rem);--e-global-typography-2fe66a8-font-weight:600;--e-global-typography-2fe66a8-text-transform:uppercase;--e-global-typography-2fe66a8-line-height:1.4em;--e-global-typography-e1d2112-font-family:"Albert Sans";--e-global-typography-e1d2112-font-size:0.875rem;--e-global-typography-e1d2112-font-weight:600;--e-global-typography-e1d2112-text-transform:uppercase;--e-global-typography-e1d2112-line-height:1.6em;--e-global-typography-e1d2112-letter-spacing:0.2em;--e-global-typography-1ba3724-font-family:"Vela Sans";--e-global-typography-1ba3724-font-size:1.5rem;--e-global-typography-1ba3724-font-weight:400;--e-global-typography-1ba3724-line-height:1.5em;--e-global-typography-5725ce8-font-family:"Vela Sans";--e-global-typography-5725ce8-font-size:1.375rem;--e-global-typography-5725ce8-font-weight:400;--e-global-typography-5725ce8-line-height:1.6em;--e-global-typography-9c0bb5a-font-family:"Vela Sans";--e-global-typography-9c0bb5a-font-size:1.125rem;--e-global-typography-9c0bb5a-font-weight:400;--e-global-typography-9c0bb5a-line-height:1.6em;--e-global-typography-d2cd023-font-family:"Vela Sans";--e-global-typography-d2cd023-font-size:1rem;--e-global-typography-d2cd023-font-weight:400;--e-global-typography-d2cd023-line-height:1.7em;--e-global-typography-6263f25-font-family:"Vela Sans";--e-global-typography-6263f25-font-size:0.875rem;--e-global-typography-6263f25-font-weight:400;--e-global-typography-6263f25-line-height:1.5em;background-color:var( --e-global-color-e864ef8 );color:var( --e-global-color-text );font-family:var( --e-global-typography-9c0bb5a-font-family ), Sans-serif;font-size:var( --e-global-typography-9c0bb5a-font-size );font-weight:var( --e-global-typography-9c0bb5a-font-weight );line-height:var( --e-global-typography-9c0bb5a-line-height );}.elementor-kit-6 h1{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-5615c1f-font-family ), Sans-serif;font-size:var( --e-global-typography-5615c1f-font-size );font-weight:var( --e-global-typography-5615c1f-font-weight );text-transform:var( --e-global-typography-5615c1f-text-transform );line-height:var( --e-global-typography-5615c1f-line-height );}.elementor-kit-6 h2{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-390da49-font-family ), Sans-serif;font-size:var( --e-global-typography-390da49-font-size );font-weight:var( --e-global-typography-390da49-font-weight );text-transform:var( --e-global-typography-390da49-text-transform );line-height:var( --e-global-typography-390da49-line-height );}.elementor-kit-6 h3{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-eb273d9-font-family ), Sans-serif;font-size:var( --e-global-typography-eb273d9-font-size );font-weight:var( --e-global-typography-eb273d9-font-weight );text-transform:var( --e-global-typography-eb273d9-text-transform );line-height:var( --e-global-typography-eb273d9-line-height );}.elementor-kit-6 h4{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-abf6c38-font-family ), Sans-serif;font-size:var( --e-global-typography-abf6c38-font-size );font-weight:var( --e-global-typography-abf6c38-font-weight );text-transform:var( --e-global-typography-abf6c38-text-transform );line-height:var( --e-global-typography-abf6c38-line-height );}.elementor-kit-6 h5{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-3e8ee1c-font-family ), Sans-serif;font-size:var( --e-global-typography-3e8ee1c-font-size );font-weight:var( --e-global-typography-3e8ee1c-font-weight );text-transform:var( --e-global-typography-3e8ee1c-text-transform );line-height:var( --e-global-typography-3e8ee1c-line-height );}.elementor-kit-6 h6{color:var( --e-global-color-1a46ecc );font-family:var( --e-global-typography-2fe66a8-font-family ), Sans-serif;font-size:var( --e-global-typography-2fe66a8-font-size );font-weight:var( --e-global-typography-2fe66a8-font-weight );text-transform:var( --e-global-typography-2fe66a8-text-transform );line-height:var( --e-global-typography-2fe66a8-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1920px;}.e-con{--container-max-width:1920px;--container-default-padding-top:0px;--container-default-padding-right:0px;--container-default-padding-bottom:0px;--container-default-padding-left:0px;}.elementor-widget:not(:last-child){margin-block-end:24px;}.elementor-element{--widgets-spacing:24px 24px;--widgets-spacing-row:24px;--widgets-spacing-column:24px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1366px){.elementor-kit-6{font-size:var( --e-global-typography-9c0bb5a-font-size );line-height:var( --e-global-typography-9c0bb5a-line-height );}.elementor-kit-6 h1{font-size:var( --e-global-typography-5615c1f-font-size );line-height:var( --e-global-typography-5615c1f-line-height );}.elementor-kit-6 h2{font-size:var( --e-global-typography-390da49-font-size );line-height:var( --e-global-typography-390da49-line-height );}.elementor-kit-6 h3{font-size:var( --e-global-typography-eb273d9-font-size );line-height:var( --e-global-typography-eb273d9-line-height );}.elementor-kit-6 h4{font-size:var( --e-global-typography-abf6c38-font-size );line-height:var( --e-global-typography-abf6c38-line-height );}.elementor-kit-6 h5{font-size:var( --e-global-typography-3e8ee1c-font-size );line-height:var( --e-global-typography-3e8ee1c-line-height );}.elementor-kit-6 h6{font-size:var( --e-global-typography-2fe66a8-font-size );line-height:var( --e-global-typography-2fe66a8-line-height );}}@media(max-width:1024px){.elementor-kit-6{font-size:var( --e-global-typography-9c0bb5a-font-size );line-height:var( --e-global-typography-9c0bb5a-line-height );}.elementor-kit-6 h1{font-size:var( --e-global-typography-5615c1f-font-size );line-height:var( --e-global-typography-5615c1f-line-height );}.elementor-kit-6 h2{font-size:var( --e-global-typography-390da49-font-size );line-height:var( --e-global-typography-390da49-line-height );}.elementor-kit-6 h3{font-size:var( --e-global-typography-eb273d9-font-size );line-height:var( --e-global-typography-eb273d9-line-height );}.elementor-kit-6 h4{font-size:var( --e-global-typography-abf6c38-font-size );line-height:var( --e-global-typography-abf6c38-line-height );}.elementor-kit-6 h5{font-size:var( --e-global-typography-3e8ee1c-font-size );line-height:var( --e-global-typography-3e8ee1c-line-height );}.elementor-kit-6 h6{font-size:var( --e-global-typography-2fe66a8-font-size );line-height:var( --e-global-typography-2fe66a8-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-6{font-size:var( --e-global-typography-9c0bb5a-font-size );line-height:var( --e-global-typography-9c0bb5a-line-height );}.elementor-kit-6 h1{font-size:var( --e-global-typography-5615c1f-font-size );line-height:var( --e-global-typography-5615c1f-line-height );}.elementor-kit-6 h2{font-size:var( --e-global-typography-390da49-font-size );line-height:var( --e-global-typography-390da49-line-height );}.elementor-kit-6 h3{font-size:var( --e-global-typography-eb273d9-font-size );line-height:var( --e-global-typography-eb273d9-line-height );}.elementor-kit-6 h4{font-size:var( --e-global-typography-abf6c38-font-size );line-height:var( --e-global-typography-abf6c38-line-height );}.elementor-kit-6 h5{font-size:var( --e-global-typography-3e8ee1c-font-size );line-height:var( --e-global-typography-3e8ee1c-line-height );}.elementor-kit-6 h6{font-size:var( --e-global-typography-2fe66a8-font-size );line-height:var( --e-global-typography-2fe66a8-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */html {
+    scroll-padding-top: 100px;
+}
+
+/*Paragraph*/
+.balance {
+  text-wrap: balance;
+}
+.pretty {
+  text-wrap: pretty;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.b-700 {
+    font-weight: 700 !important;
+}
+
+/*Padding*/
+.p-section {
+  padding: 128px 20px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.p2-section {
+  padding-top: 80px !important;
+  padding-left: 20px !important;
+  padding-bottom: 120px !important;
+  padding-right: 20px !important;
+}
+
+@media screen and (width <= 1366px) {
+  .p-section {
+    padding: 80px 20px;
+  }
+  .py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .pt-0 {
+    padding-top: 0px;
+  }
+
+  .px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .p2-section {
+    padding-top: 80px !important;
+    padding-left: 20px !important;
+    padding-bottom: 80px !important;
+    padding-right: 20px !important;
+  }
+
+@media screen and (width <= 1024px) {
+  .p-section {
+    padding: 80px 20px;
+  }
+  .py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .pt-0 {
+    padding-top: 0px;
+  }
+
+  .px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .p2-section {
+    padding-top: 80px !important;
+    padding-left: 20px !important;
+    padding-bottom: 80px !important;
+    padding-right: 20px !important;
+  }
+}
+
+.gradient-fb-bg {
+    background: var(--Forge-Blue-Gradient, linear-gradient(116deg, #07252C 11.33%, #07252C 20.26%, #07252C 27.51%, #08242B 33.37%, #08242B 38.07%, #08242A 41.88%, #092329 45.05%, #0A2228 47.84%, #0A2227 50.49%, #0B2126 53.28%, #0C2025 56.45%, #0C2024 60.26%, #0D1F23 64.96%, #0E1E22 70.82%, #0E1E21 78.08%, #0F1D20 87%)) !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Albert Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/AlbertSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Albert Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/AlbertSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Albert Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/AlbertSans-Bold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Vela Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/VelaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Vela Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/VelaSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Vela Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://humansoferp.com/wp-content/uploads/2025/07/VelaSans-Bold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

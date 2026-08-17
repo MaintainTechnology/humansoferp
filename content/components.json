@@ -1,0 +1,527 @@
+{
+  "240": {
+    "id": "240",
+    "name": "Card - Blog Post",
+    "entryType": "listing",
+    "props": [],
+    "tree": [
+      {
+        "id": "125bf27",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": ""
+          },
+          "flex_gap": {
+            "column": "30",
+            "row": "30",
+            "isLinked": true,
+            "unit": "px",
+            "size": 30
+          },
+          "jedv_conditions": [
+            {
+              "_id": "c68f676"
+            }
+          ],
+          "_element_width": "initial",
+          "flex_justify_content": "space-between",
+          "custom_css": "selector div[data-elementor-type=\"jet-engine-component\"]{\r\n    height: 100%;\r\n}\r\nselector div[data-elementor-type=\"jet-engine-component\"] > div{\r\n    height: 100%;\r\n}"
+        },
+        "elements": [
+          {
+            "id": "dd8fec1",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "jedv_conditions": [
+                {
+                  "_id": "b401e55"
+                }
+              ]
+            },
+            "elements": [
+              {
+                "id": "9a64633",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "min_height": {
+                    "unit": "px",
+                    "size": 588,
+                    "sizes": []
+                  },
+                  "background_background": "classic",
+                  "background_position": "center center",
+                  "background_repeat": "no-repeat",
+                  "background_size": "cover",
+                  "jedv_conditions": [
+                    {
+                      "_id": "ccb275d"
+                    }
+                  ],
+                  "__dynamic__": {
+                    "background_image": "[elementor-tag id=\"78fa5ea\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+                  },
+                  "_title": "feature image"
+                },
+                "elements": [],
+                "isInner": true
+              },
+              {
+                "id": "627913d",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "flex_gap": {
+                    "column": "14",
+                    "row": "14",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "jedv_conditions": [
+                    {
+                      "_id": "295a156"
+                    }
+                  ],
+                  "_title": "Content"
+                },
+                "elements": [
+                  {
+                    "id": "7afa789",
+                    "elType": "container",
+                    "settings": {
+                      "content_width": "full",
+                      "jedv_conditions": [
+                        {
+                          "_id": "ce7b275"
+                        }
+                      ],
+                      "_title": "Title"
+                    },
+                    "elements": [
+                      {
+                        "id": "a041fbd",
+                        "elType": "widget",
+                        "settings": {
+                          "title": "Add Your Heading Text Here",
+                          "header_size": "h3",
+                          "jedv_conditions": [
+                            {
+                              "_id": "e82f309"
+                            }
+                          ],
+                          "__globals__": {
+                            "typography_typography": "globals/typography?id=2fe66a8"
+                          },
+                          "__dynamic__": {
+                            "title": "[elementor-tag id=\"34723df\" name=\"post-title\" settings=\"%7B%7D\"]"
+                          }
+                        },
+                        "elements": [],
+                        "widgetType": "heading"
+                      }
+                    ],
+                    "isInner": true
+                  },
+                  {
+                    "id": "4f7f15f",
+                    "elType": "widget",
+                    "settings": {
+                      "__dynamic__": {
+                        "excerpt": "[elementor-tag id=\"\" name=\"post-excerpt\" settings=\"%7B%22max_length%22%3A18%2C%22apply_to_post_content%22%3A%22yes%22%2C%22after%22%3A%22...%22%7D\"]"
+                      },
+                      "jedv_conditions": [
+                        {
+                          "_id": "026da70"
+                        }
+                      ],
+                      "__globals__": {
+                        "typography_typography": "globals/typography?id=d2cd023"
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "theme-post-excerpt"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "af5b248",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "jedv_conditions": [
+                {
+                  "_id": "b401e55"
+                }
+              ]
+            },
+            "elements": [
+              {
+                "id": "3032073",
+                "elType": "widget",
+                "settings": {
+                  "text": "Read more",
+                  "_css_classes": "dark soft rounded px-0 text-md icon-md items-center-md has_icon transition-all",
+                  "jedv_conditions": [
+                    {
+                      "_id": "5a3e98d"
+                    }
+                  ],
+                  "selected_icon": {
+                    "value": {
+                      "url": "/assets/2025/07/icon-right.svg",
+                      "id": 190
+                    },
+                    "library": "svg"
+                  },
+                  "icon_align": "row-reverse",
+                  "icon_indent": {
+                    "unit": "px",
+                    "size": 8,
+                    "sizes": []
+                  },
+                  "_flex_align_self": "flex-start",
+                  "__dynamic__": {
+                    "link": "[elementor-tag id=\"fe1b263\" name=\"post-url\" settings=\"%7B%7D\"]"
+                  }
+                },
+                "elements": [],
+                "widgetType": "button"
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "listing": {
+      "source": "posts",
+      "post_type": "post",
+      "tax": "category"
+    },
+    "css": ""
+  },
+  "548": {
+    "id": "548",
+    "name": "Card - Blog Post - Thumbnail",
+    "entryType": "listing",
+    "props": [],
+    "tree": [
+      {
+        "id": "2ab6c25",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "width": {
+            "unit": "px",
+            "size": 995,
+            "sizes": []
+          },
+          "width_tablet": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+          },
+          "width_mobile": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+          },
+          "_flex_size": "grow",
+          "jedv_conditions": [
+            {
+              "_id": "7bf8ca1"
+            }
+          ],
+          "html_tag": "a",
+          "link": {
+            "url": "https://humansoferp.com/stories/vishal-bhatia-on-partnership-parenthood-and-people-first-leadership-in-erp/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+          },
+          "flex_direction": "column",
+          "flex_justify_content": "flex-end",
+          "overflow": "hidden",
+          "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "976452f",
+            "elType": "container",
+            "settings": {
+              "boxed_width": {
+                "unit": "px",
+                "size": 995,
+                "sizes": []
+              },
+              "min_height": {
+                "unit": "px",
+                "size": 515,
+                "sizes": []
+              },
+              "background_background": "classic",
+              "background_position": "center center",
+              "background_repeat": "no-repeat",
+              "background_size": "cover",
+              "z_index": 0,
+              "jedv_conditions": [
+                {
+                  "_id": "5aff04f"
+                }
+              ],
+              "__dynamic__": {
+                "background_image": "[elementor-tag id=\"489c77c\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+              }
+            },
+            "elements": [
+              {
+                "id": "27349c1",
+                "elType": "widget",
+                "settings": {
+                  "image": {
+                    "url": "/assets/2025/07/Vishal-Bhatia-on-Partnership-Parenthood-and-People-First-Leadership-in-ERP-3.jpg",
+                    "id": 340,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "width": {
+                    "unit": "%",
+                    "size": 100,
+                    "sizes": []
+                  },
+                  "height": {
+                    "unit": "px",
+                    "size": 506,
+                    "sizes": []
+                  },
+                  "object-fit": "cover",
+                  "object-position": "top center",
+                  "image_border_radius": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "8",
+                    "left": "8",
+                    "isLinked": true
+                  },
+                  "jedv_conditions": [
+                    {
+                      "_id": "2a2bd58"
+                    }
+                  ],
+                  "link_to": "custom",
+                  "space": {
+                    "unit": "%",
+                    "size": 100,
+                    "sizes": []
+                  },
+                  "_element_width": "inherit",
+                  "custom_css": "selector {\n    display: none;\n}",
+                  "__dynamic__": {
+                    "image": "[elementor-tag id=\"baa342f\" name=\"post-featured-image\" settings=\"%7B%7D\"]",
+                    "link": "[elementor-tag id=\"09ae039\" name=\"post-url\" settings=\"%7B%7D\"]"
+                  }
+                },
+                "elements": [],
+                "widgetType": "image"
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "a95d4d4",
+            "elType": "container",
+            "settings": {
+              "position": "absolute",
+              "_offset_orientation_v": "end",
+              "z_index": 1,
+              "jedv_conditions": [
+                {
+                  "_id": "7b29005"
+                }
+              ]
+            },
+            "elements": [
+              {
+                "id": "bb8e616",
+                "elType": "widget",
+                "settings": {
+                  "title": "Vishal Bhatia on Partnership, Parenthood, and People-First Leadership in ERP",
+                  "header_size": "h3",
+                  "_padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "40",
+                    "bottom": "32",
+                    "left": "40",
+                    "isLinked": false
+                  },
+                  "_padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": false
+                  },
+                  "_element_custom_width": {
+                    "unit": "%",
+                    "size": 82,
+                    "sizes": []
+                  },
+                  "_offset_orientation_v": "end",
+                  "_css_classes": "pretty",
+                  "jedv_conditions": [
+                    {
+                      "_id": "e4051d5"
+                    }
+                  ],
+                  "__globals__": {
+                    "typography_typography": "",
+                    "title_color": "globals/colors?id=e864ef8"
+                  },
+                  "_offset_x": {
+                    "size": -0.996,
+                    "unit": "px"
+                  },
+                  "_offset_y_end": {
+                    "size": -0.006,
+                    "unit": "px"
+                  },
+                  "typography_typography": "custom",
+                  "typography_font_family": "Albert Sans",
+                  "typography_font_size": {
+                    "unit": "custom",
+                    "size": "clamp(1.75rem, 1.6426rem + 0.4582vw, 2rem);",
+                    "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_text_transform": "uppercase",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.3,
+                    "sizes": []
+                  },
+                  "typography_letter_spacing": {
+                    "unit": "px",
+                    "size": -1.1,
+                    "sizes": []
+                  },
+                  "title_color": "#FFFFFF",
+                  "_element_width": "inherit",
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"400dddd\" name=\"post-title\" settings=\"%7B%7D\"]",
+                    "link": "[elementor-tag id=\"835a10f\" name=\"post-url\" settings=\"%7B%7D\"]"
+                  }
+                },
+                "elements": [],
+                "widgetType": "heading"
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "listing": {
+      "source": "posts",
+      "post_type": "post",
+      "tax": "category"
+    },
+    "css": ""
+  },
+  "602": {
+    "id": "602",
+    "name": "Card - Story Gallery",
+    "entryType": "listing",
+    "props": [],
+    "tree": [
+      {
+        "id": "aa6609e",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "jedv_conditions": [
+            {
+              "_id": "690368a"
+            }
+          ],
+          "_flex_size": "grow",
+          "overflow": "hidden",
+          "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "2a0ef9d",
+            "elType": "widget",
+            "settings": {
+              "jedv_conditions": [
+                {
+                  "_id": "5437042"
+                }
+              ],
+              "__dynamic__": {
+                "image": "[elementor-tag id=\"1eab12c\" name=\"jet-cct-image\" settings=\"%7B%22content_type_field%22%3A%22story_gallery__all___story_image%22%7D\"]"
+              },
+              "width": {
+                "unit": "%",
+                "size": 100,
+                "sizes": []
+              },
+              "space": {
+                "unit": "%",
+                "size": 100,
+                "sizes": []
+              },
+              "height": {
+                "unit": "px",
+                "size": 100,
+                "sizes": []
+              },
+              "object-fit": "cover",
+              "_flex_align_self": "stretch",
+              "_flex_size": "grow",
+              "custom_css": "selector img{\n    object-fit: cover;\n    height: 100%;\n}"
+            },
+            "elements": [],
+            "widgetType": "image"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "listing": {
+      "source": "posts",
+      "post_type": "post",
+      "tax": "category"
+    },
+    "css": ""
+  }
+}

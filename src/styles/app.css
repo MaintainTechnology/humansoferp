@@ -1,0 +1,408 @@
+/* Hand-written layer: only what replaces plugin behaviour we dropped.
+   Everything visual comes from site.generated.css. */
+
+/* --- word-stagger reveal (was SplitType + GSAP ScrollTrigger) ------------
+   Scoped to [text-split], exactly as the original snippet was. `.pretty` is a
+   marker class with no styling on the live site — do NOT animate it, or 54
+   elements per page get hidden until JS runs. */
+[text-split] {
+  line-height: 1.4;
+}
+[text-split] .word {
+  display: inline-block;
+  margin-right: 0.15em;
+  opacity: 0;
+  transform: translateY(0.4em);
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[text-split].is-revealed .word {
+  opacity: 1;
+  transform: none;
+}
+[text-split].is-revealed .word:nth-child(1) { transition-delay: 0.02s; }
+[text-split].is-revealed .word:nth-child(2) { transition-delay: 0.04s; }
+[text-split].is-revealed .word:nth-child(3) { transition-delay: 0.06s; }
+[text-split].is-revealed .word:nth-child(4) { transition-delay: 0.08s; }
+[text-split].is-revealed .word:nth-child(5) { transition-delay: 0.10s; }
+[text-split].is-revealed .word:nth-child(6) { transition-delay: 0.12s; }
+[text-split].is-revealed .word:nth-child(7) { transition-delay: 0.14s; }
+[text-split].is-revealed .word:nth-child(8) { transition-delay: 0.16s; }
+[text-split].is-revealed .word:nth-child(n + 9) { transition-delay: 0.18s; }
+
+/* No JS, or motion turned down: show the text. */
+@media (prefers-reduced-motion: reduce) {
+  [text-split] .word {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  /* The story marquee is a CSS animation on the slider track. The original
+     site runs it regardless of this setting; a continuously moving strip is
+     exactly what the preference exists to stop. */
+  #ltr_slide .slick-track,
+  #rtl_slide .slick-track,
+  .jet-listing-grid__slider .slick-track {
+    animation: none !important;
+  }
+}
+
+/* --- story marquee (was Slick, sized inline by its JS) -------------------
+   The track holds two copies of the slides and the site's own CSS animates it
+   to -50%, so one copy scrolls past per cycle. Widths are derived rather than
+   set by script: the track is `slideCount / columns` of the visible width, and
+   each slide is an equal share of the track. `--columns` comes from Elementor's
+   generated CSS and already changes per breakpoint. */
+.jet-listing-grid__slider .slick-list {
+  overflow: hidden;
+}
+.jet-listing-grid__slider .slick-track {
+  display: flex;
+  width: calc(var(--hoe-slide-count, 2) * 100% / var(--columns, 4));
+}
+.jet-listing-grid__slider .slick-slide {
+  flex: 0 0 auto;
+  width: calc(100% / var(--hoe-slide-count, 2));
+  height: auto;
+}
+
+/* --- side menu popup (was Elementor Pro popup + its JS) ------------------ */
+/* popup.min.css ships `[data-elementor-type=popup]:not(.elementor-edit-area)
+   { display:none }` (0,2,0) and relies on Elementor's JS to reveal the popup.
+   We render it ourselves, so out-rank that rule — display only, or the base
+   opacity would outrank `.is-open` too. */
+.elementor.elementor-location-popup[data-elementor-type='popup'] {
+  display: flex;
+}
+.elementor-location-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483630;
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(16 24 32 / 55%);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+.elementor-location-popup.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+.elementor-location-popup > .elementor-element {
+  transform: translateX(6%);
+  transition: transform 400ms var(--ease-drawer);
+}
+.elementor-location-popup.is-open > .elementor-element {
+  transform: none;
+}
+
+/* --- native dropdown for the main nav (was jQuery SmartMenus) ------------ */
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu > li {
+  position: relative;
+}
+.elementor-nav-menu .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 15rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+.elementor-nav-menu > li:hover > .sub-menu,
+.elementor-nav-menu > li:focus-within > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.elementor-nav-menu .sub-arrow svg {
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.35em;
+  fill: currentColor;
+  vertical-align: baseline;
+}
+
+/* --- forms (was Forminator) ---------------------------------------------- */
+/* Any explicit `display` beats the UA rule behind the `hidden` attribute, and
+   the field wrappers below set one. Restore it before that happens. */
+[hidden] {
+  display: none !important;
+}
+
+.mt-form {
+  display: grid;
+  gap: 1rem;
+}
+.mt-form__row {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .mt-form__row--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.mt-field {
+  display: grid;
+  gap: 0.375rem;
+}
+.mt-field > label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: inherit;
+}
+.mt-field :is(input, select, textarea) {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  color: inherit;
+  background: rgb(255 255 255 / 6%);
+  border: 1px solid rgb(255 255 255 / 18%);
+  border-radius: 8px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.mt-field :is(input, select, textarea):focus-visible {
+  outline: 2px solid #ff5f00;
+  outline-offset: 2px;
+  border-color: #ff5f00;
+}
+.mt-field textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+.mt-field--consent {
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0.625rem;
+}
+.mt-field--consent .mt-field__group-label {
+  grid-column: 1 / -1;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.mt-field__hint {
+  font-size: 0.8125rem;
+  opacity: 0.7;
+}
+
+/* --- upload control (was Forminator's uploader) -------------------------- */
+.mt-upload {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+.mt-upload__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.mt-upload__btn {
+  padding: 0.6rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: rgb(255 255 255 / 10%);
+  border: 1px solid rgb(255 255 255 / 22%);
+  border-radius: 8px;
+}
+.mt-upload__input:focus-visible + .mt-upload__name,
+.mt-upload__btn:hover {
+  border-color: #ff5f00;
+}
+.mt-upload__input:focus-visible ~ .mt-upload__btn {
+  outline: 2px solid #ff5f00;
+  outline-offset: 2px;
+}
+.mt-upload__name {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+.mt-upload__clear {
+  font: inherit;
+  font-size: 0.8125rem;
+  color: #ff8a5c;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+}
+.mt-upload__hint {
+  flex-basis: 100%;
+  font-size: 0.8125rem;
+  opacity: 0.65;
+}
+
+/* --- radio groups -------------------------------------------------------- */
+.mt-field__radios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.mt-radio {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.9375rem;
+  cursor: pointer;
+}
+.mt-field--consent input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.2rem;
+}
+.mt-form__error {
+  font-size: 0.8125rem;
+  color: #ff8a5c;
+}
+.mt-form__status[data-state='error'] {
+  color: #ff8a5c;
+}
+.mt-form__status[data-state='ok'] {
+  color: #8ee6a8;
+}
+.mt-form button[type='submit'] {
+  justify-self: start;
+  padding: 0.875rem 1.75rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background: #ff5f00;
+  border: 0;
+  border-radius: 999px;
+}
+.mt-form button[type='submit']:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+/* --- motion polish (emil-design-eng) --------------------------------------
+   Strong custom curves — the built-in CSS easings are too weak. Only
+   transform/opacity animate (GPU); hovers are gated to real pointers;
+   everything degrades under prefers-reduced-motion. */
+:root {
+  --ease-out-strong: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-strong: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* Press feedback: every pressable element confirms the press. `:active`
+   also fires on touch, so this needs no hover gate. */
+.elementor-button,
+.mt-form button[type='submit'],
+.mt-upload__btn,
+.e-off-canvas__close-button,
+.jet-listing-grid__slider .jet-listing-grid__item,
+.elementor-share-btn {
+  /* replaces the kit's `transition: all .3s` with named properties, keeping
+     its color hovers and adding a snappy press */
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 160ms var(--ease-out-strong);
+}
+.elementor-button:active,
+.mt-form button[type='submit']:active,
+.mt-upload__btn:active,
+.e-off-canvas__close-button:active,
+.elementor-share-btn:active {
+  transform: scale(0.97);
+}
+
+/* The arrow icon inside CTAs nudges forward on hover — state feedback for
+   "this takes you somewhere", subtle because hovers are seen constantly. */
+.elementor-button .elementor-button-icon {
+  transition: transform 200ms var(--ease-out-strong);
+}
+@media (hover: hover) and (pointer: fine) {
+  .elementor-button:hover .elementor-button-icon {
+    transform: translateX(3px);
+  }
+}
+
+/* Nav + footer links: color only. Navigation is used constantly — motion
+   here would be noise. */
+.elementor-nav-menu a,
+.elementor-location-footer a,
+.elementor-icon-list-icon svg {
+  transition: color 150ms ease, fill 150ms ease, opacity 150ms ease;
+}
+
+/* Story cards: lift on hover. Marquee pauses while the pointer is over it —
+   a moving link target is hard to read and harder to click. */
+@media (hover: hover) and (pointer: fine) {
+  #ltr_slide .slick-track:hover,
+  #rtl_slide .slick-track:hover,
+  .jet-listing-grid__slider .slick-track:hover {
+    animation-play-state: paused;
+  }
+  .jet-listing-grid__slider .jet-listing-grid__item:hover {
+    transform: translateY(-4px);
+  }
+  main .e-loop-item:hover {
+    transform: translateY(-4px);
+  }
+}
+main .e-loop-item {
+  transition: transform 250ms var(--ease-out-strong);
+}
+
+/* Scroll reveal: fade-up, once, staggered inside a container by
+   --reveal-delay (set in Effects.jsx). Hidden state exists only under
+   `html.js`, so no-JS visitors always see content. */
+html.js .reveal {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 550ms ease var(--reveal-delay, 0ms),
+    transform 550ms var(--ease-out-strong) var(--reveal-delay, 0ms);
+}
+html.js .reveal:not(.is-inview) {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal,
+  html.js .reveal:not(.is-inview) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .jet-listing-grid__slider .jet-listing-grid__item,
+  main .e-loop-item,
+  .elementor-location-popup > .elementor-element {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* Skip link — the original theme had none. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 2147483647;
+  padding: 0.75rem 1.25rem;
+  background: #101820;
+  color: #fff;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+}
