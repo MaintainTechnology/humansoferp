@@ -148,9 +148,12 @@ reference/
 final-*.png
 popup-*.png
 
-# Local tooling state
+# Local tooling state (but keep the project's Claude skills/agents/launch config)
 .playwright-mcp/
-.claude/
+.claude/*
+!.claude/skills/
+!.claude/agents/
+!.claude/launch.json
 .claude-flow/
 .vscode/
 .vercel

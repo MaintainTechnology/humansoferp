@@ -1,0 +1,128 @@
+/* Humans of ERP — typography. Generated from content/site.json — do not hand-edit.
+ * Regenerate: node design-system/scripts/build-tokens.mjs */
+@font-face {
+  font-family: 'Vela Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/VelaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Vela Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./fonts/VelaSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Vela Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./fonts/VelaSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Albert Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/AlbertSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Albert Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./fonts/AlbertSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Albert Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./fonts/AlbertSans-Bold.ttf') format('truetype');
+}
+
+/* type scale (from Elementor global kit) */
+.hoe-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.hoe-title-hero {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.625rem, 2.2491rem + 1.6037vw, 3.5rem);
+  line-height: 1.1;
+}
+.hoe-h1 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2.2852rem + 0.9164vw, 3rem);
+  line-height: 1.3;
+}
+.hoe-h2 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 1.5704rem + 1.8328vw, 3rem);
+  line-height: 1.3;
+}
+.hoe-h3 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 1.6426rem + 0.4582vw, 2rem);
+  line-height: 1.3;
+}
+.hoe-h4 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.3926rem + 0.4582vw, 1.75rem);
+  line-height: 1.4;
+}
+.hoe-h5 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.25rem, 1.1426rem + 0.4582vw, 1.5rem);
+  line-height: 1.4;
+}
+.hoe-h6 {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.125rem, 1.0713rem + 0.2291vw, 1.25rem);
+  line-height: 1.4;
+}
+.hoe-sub-header {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.hoe-text-xl {
+  font-family: 'Vela Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.hoe-text-lg {
+  font-family: 'Vela Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 1.6;
+}
+.hoe-text-md {
+  font-family: 'Vela Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.hoe-text-sm {
+  font-family: 'Vela Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.hoe-text-xs {
+  font-family: 'Vela Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

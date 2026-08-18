@@ -1,0 +1,94 @@
+/* Humans of ERP — color tokens. Generated from content/site.json — do not hand-edit.
+ * Regenerate: node design-system/scripts/build-tokens.mjs */
+:root {
+
+  /* gray-neutral */
+  --hoe-gray-neutral-50: #F7F8F8;
+  --hoe-gray-neutral-100: #EDEEF1;
+  --hoe-gray-neutral-200: #D8DBDF;
+  --hoe-gray-neutral-300: #B6BAC3;
+  --hoe-gray-neutral-400: #8E95A2;
+  --hoe-gray-neutral-500: #6B7280;
+  --hoe-gray-neutral-600: #5B616E;
+  --hoe-gray-neutral-700: #4A4E5A;
+  --hoe-gray-neutral-800: #40444C;
+  --hoe-gray-neutral-900: #383A42;
+  --hoe-gray-neutral-950: #25272C;
+
+  /* primary */
+  --hoe-primary-50: #F4F7FB;
+  --hoe-primary-100: #E9EFF5;
+  --hoe-primary-200: #CEDDE9;
+  --hoe-primary-300: #A2C1D7;
+  --hoe-primary-400: #709FC0;
+  --hoe-primary-500: #4E84A9;
+  --hoe-primary-600: #3C6A8D;
+  --hoe-primary-700: #315573;
+  --hoe-primary-800: #2C4960;
+  --hoe-primary-900: #293E51;
+  --hoe-primary-950: #101820;
+
+  /* gray-cool */
+  --hoe-gray-cool-50: #F3F8FA;
+  --hoe-gray-cool-100: #EAF1F5;
+  --hoe-gray-cool-200: #D8E5ED;
+  --hoe-gray-cool-300: #C0D4E1;
+  --hoe-gray-cool-400: #A6BDD3;
+  --hoe-gray-cool-500: #8FA6C5;
+  --hoe-gray-cool-600: #7B90B6;
+  --hoe-gray-cool-700: #65789D;
+  --hoe-gray-cool-800: #54647F;
+  --hoe-gray-cool-900: #485467;
+  --hoe-gray-cool-950: #2A303C;
+
+  /* accent */
+  --hoe-accent-50: #F0FBFA;
+  --hoe-accent-100: #D8F5F5;
+  --hoe-accent-200: #B5E9EC;
+  --hoe-accent-300: #82D8DE;
+  --hoe-accent-400: #48BEC8;
+  --hoe-accent-500: #2DA2AD;
+  --hoe-accent-600: #257A88;
+  --hoe-accent-700: #266A78;
+  --hoe-accent-800: #275863;
+  --hoe-accent-900: #244A55;
+  --hoe-accent-950: #133039;
+
+  /* secondary */
+  --hoe-secondary-50: #F1FCFC;
+  --hoe-secondary-100: #CFF8F6;
+  --hoe-secondary-200: #9FF0EF;
+  --hoe-secondary-300: #67DEE1;
+  --hoe-secondary-400: #38C1C9;
+  --hoe-secondary-500: #1FA3AD;
+  --hoe-secondary-600: #16808B;
+  --hoe-secondary-700: #16666F;
+  --hoe-secondary-800: #165159;
+  --hoe-secondary-900: #17444A;
+  --hoe-secondary-950: #07272D;
+
+  /* semantic */
+  --hoe-text-light: #FAFAFA;
+  --hoe-text-dark: #040E10;
+  --hoe-background-light: #F5F5F1;
+  --hoe-background-dark: #101820;
+  --hoe-neutral-light: #FFFFFF;
+  --hoe-neutral-dark: #000000;
+  --hoe-grays-warm-50: #F4F3F2;
+  --hoe-grays-warm-100: #E2E1DF;
+  --hoe-grays-warm-200: #C8C4C0;
+  --hoe-grays-warm-300: #A8A29C;
+  --hoe-grays-warm-400: #8F8780;
+  --hoe-grays-warm-500: #79716B;
+  --hoe-grays-warm-600: #6E6460;
+  --hoe-grays-warm-700: #59524F;
+  --hoe-grays-warm-800: #4D4846;
+  --hoe-grays-warm-900: #453F3E;
+  --hoe-grays-warm-950: #262322;
+
+  /* elementor global system colors (aliases) */
+  --hoe-system-primary: #101820;
+  --hoe-system-secondary: #07272D;
+  --hoe-system-text: #5B616E;
+  --hoe-system-accent: #257A88;
+}

@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Humans of ERP — Brand Kit</title>
+<link rel="icon" href="./logos/HoE-favicon.svg">
+<link rel="stylesheet" href="./colors.css">
+<link rel="stylesheet" href="./typography.css">
+<link rel="stylesheet" href="./components.css">
+<style>
+  /* board-only chrome — not part of the design system */
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: 'Vela Sans', sans-serif;
+    font-size: 1rem; line-height: 1.7;
+    color: var(--hoe-primary-950);
+    background: var(--hoe-background-light);
+  }
+  .board { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
+  .board-hero { padding: 96px 0 64px; }
+  .board-hero img { width: 236px; display: block; margin-bottom: 40px; }
+  section { padding: 64px 0; border-top: 1px solid var(--hoe-gray-neutral-200); }
+  section.on-dark { border-top: 0; }
+  .on-dark { color: #fff; }
+  .on-dark .board { padding-top: 64px; padding-bottom: 64px; }
+  .sec-label { color: var(--hoe-accent-600); margin-bottom: 12px; }
+  .on-dark .sec-label { color: var(--hoe-accent-400); }
+  h2.hoe-h3 { margin-bottom: 32px; }
+  .note { color: var(--hoe-system-text); font-size: 0.9375rem; max-width: 62ch; margin-bottom: 32px; }
+  .on-dark .note { color: var(--hoe-secondary-200); }
+
+  .logo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+  .logo-tile { background: #fff; border: 1px solid var(--hoe-gray-neutral-100); border-radius: 10px;
+    padding: 40px 24px 20px; display: flex; flex-direction: column; gap: 24px; align-items: center; }
+  .logo-tile.dark { background: var(--hoe-secondary-950); border-color: var(--hoe-secondary-900); }
+  .logo-tile img { max-width: 200px; max-height: 96px; }
+  .logo-tile figcaption { font-size: 0.8125rem; color: var(--hoe-system-text); text-align: center; }
+  .logo-tile.dark figcaption { color: var(--hoe-secondary-200); }
+
+  .scale { margin-bottom: 20px; }
+  .scale-name { font-family: 'Albert Sans', sans-serif; font-weight: 600; font-size: 0.875rem;
+    text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+  .swatches { display: grid; grid-template-columns: repeat(11, 1fr); border-radius: 8px; overflow: hidden; }
+  .sw { aspect-ratio: 1 / 1.35; display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 6px; font-size: 0.625rem; line-height: 1.35; font-family: 'Albert Sans', sans-serif; }
+  .core-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 40px; }
+  .core { border-radius: 10px; padding: 20px 16px; min-height: 130px; display: flex;
+    flex-direction: column; justify-content: flex-end; border: 1px solid var(--hoe-gray-neutral-100); }
+  .core b { font-family: 'Albert Sans', sans-serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .core span { font-size: 0.8125rem; opacity: 0.85; }
+
+  .type-row { display: grid; grid-template-columns: 150px 1fr; gap: 24px; align-items: baseline;
+    padding: 18px 0; border-bottom: 1px dashed var(--hoe-gray-neutral-200); }
+  .type-meta { font-size: 0.75rem; color: var(--hoe-system-text); font-family: 'Albert Sans', sans-serif; }
+
+  .demo-row { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-bottom: 32px; }
+  .demo-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 340px)); gap: 30px; }
+  .form-demo { max-width: 460px; }
+  .icon-grid { display: flex; flex-wrap: wrap; gap: 16px; }
+  .icon-tile { width: 84px; background: #fff; border: 1px solid var(--hoe-gray-neutral-100);
+    border-radius: 8px; padding: 14px 8px 10px; display: flex; flex-direction: column; gap: 10px; align-items: center; }
+  .icon-tile img { width: 24px; height: 24px; }
+  .icon-tile figcaption { font-size: 0.625rem; color: var(--hoe-system-text); text-align: center; word-break: break-all; }
+  .motion-list { display: grid; gap: 10px; max-width: 70ch; }
+  .motion-list code { font-size: 0.875rem; background: var(--hoe-gray-neutral-100); padding: 2px 6px; border-radius: 4px; }
+  footer.board-footer { border-top: 3px solid #E2D0A0; padding: 40px 0 56px; font-size: 0.875rem; color: var(--hoe-system-text); }
+</style>
+</head>
+<body>
+
+<header class="board-hero board">
+  <img src="./logos/HoE-x-MT-logo.svg" alt="Humans of ERP × Maintain Technology">
+  <p class="hoe-eyebrow sec-label">Brand kit &amp; design system</p>
+  <h1 class="hoe-h1 hoe-two-tone" style="text-transform:uppercase">Humans of ERP <span>Brand Kit</span></h1>
+  <p class="hoe-text-md" style="max-width:62ch; color:var(--hoe-system-text); margin-top:16px">
+    Real Stories of Real People Shaping the ERP Landscape Today. Every color, type style,
+    logo, and component on this board is extracted from the live site — nothing here is invented.
+    Machine-readable source: <code>tokens.json</code>.
+  </p>
+</header>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">01 — Logos</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Logo system</h2>
+    <p class="note">Use the SVGs as-is — never recolor, stretch, or redraw. The wordmark is two-tone:
+      ink #07272D + teal #257A88. Maintain Technology marks are co-brand only.</p>
+    <div class="logo-grid">
+      <figure class="logo-tile"><img src="./logos/HoE-logo.svg" alt="HoE wordmark"><figcaption><b>HoE-logo.svg</b> — primary wordmark (header, 118×53)</figcaption></figure>
+      <figure class="logo-tile"><img src="./logos/HoE-x-MT-logo.svg" alt="HoE × MT lockup"><figcaption><b>HoE-x-MT-logo.svg</b> — co-branded lockup (menu panel, 144px)</figcaption></figure>
+      <figure class="logo-tile"><img src="./logos/HoE-favicon.svg" alt="HoE favicon" style="max-height:72px"><figcaption><b>HoE-favicon.svg</b> — favicon / tiny sizes (teal glyph)</figcaption></figure>
+      <figure class="logo-tile"><img src="./logos/MaintainTechLogo_Horizontal_Primary_Light.svg" alt="Maintain Technology"><figcaption><b>MaintainTechLogo…Light.svg</b> — MT horizontal, orange #FF5F00 (footer, 260px)</figcaption></figure>
+      <figure class="logo-tile"><img src="./logos/MT-Group.svg" alt="MT Group" style="max-height:88px"><figcaption><b>MT-Group.svg</b> — MT Group mark (co-brand)</figcaption></figure>
+      <figure class="logo-tile dark"><img src="./logos/HoE-mobile-menu.svg" alt="mobile menu glyph" style="max-height:48px; filter:invert(1)"><figcaption><b>HoE-mobile-menu.svg</b> — mobile menu glyph (ink; inverted here for contrast)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">02 — Color</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Color system</h2>
+    <div class="core-grid">
+      <div class="core" style="background:#101820;color:#fff"><b>Ink</b><span>Primary 950 · #101820</span></div>
+      <div class="core" style="background:#07272D;color:#fff"><b>Dark teal</b><span>Secondary 950 · #07272D</span></div>
+      <div class="core" style="background:#257A88;color:#fff"><b>Teal CTA</b><span>Accent 600 · #257A88</span></div>
+      <div class="core" style="background:#F5F5F1"><b>Cream</b><span>Background Light · #F5F5F1</span></div>
+      <div class="core" style="background:#F1FCFC"><b>Aqua</b><span>Secondary 50 · #F1FCFC (heroes)</span></div>
+      <div class="core" style="background:#5B616E;color:#fff"><b>Text gray</b><span>System text · #5B616E</span></div>
+      <div class="core" style="background:#FF5F00;color:#fff"><b>MT orange</b><span>#FF5F00 — co-brand only</span></div>
+      <div class="core" style="background:#E2D0A0"><b>Gold</b><span>#E2D0A0 — footer border</span></div>
+    </div>
+    <div id="scales"></div>
+    <p class="note" style="margin:16px 0 0">Feedback colors (dark surfaces): error salmon #FF8A5C · success mint #8EE6A8.
+      All 5 scales ship as <code>--hoe-*</code> custom properties in <code>colors.css</code>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">03 — Typography</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Type system</h2>
+    <p class="note">Albert Sans 700 for display and headings (often uppercase, 600 for H6/eyebrows);
+      Vela Sans 400 for body. Never Roboto — it is a leftover Elementor default. TTFs ship in <code>fonts/</code>.</p>
+    <div class="type-row"><span class="type-meta">Title Hero<br>Albert Sans 700 · clamp 42–56px · 1.1</span><span class="hoe-title-hero" style="text-transform:uppercase">Humans of ERP</span></div>
+    <div class="type-row"><span class="type-meta">H2 · two-tone<br>Albert Sans 700 · clamp 32–48px · 1.3</span><span class="hoe-h2 hoe-two-tone" style="text-transform:uppercase">Real people. <span>Real stories.</span></span></div>
+    <div class="type-row"><span class="type-meta">H4<br>Albert Sans 700 · clamp 24–28px · 1.4</span><span class="hoe-h4" style="text-transform:uppercase">Behind every system there's a person</span></div>
+    <div class="type-row"><span class="type-meta">H6 / card title<br>Albert Sans 600 · clamp 18–20px · 1.4</span><span class="hoe-h6" style="text-transform:uppercase">On choosing curiosity over comfort</span></div>
+    <div class="type-row"><span class="type-meta">Eyebrow<br>Albert Sans 600 · 14px · ls 0.2em</span><span class="hoe-eyebrow" style="color:var(--hoe-accent-600)">Read stories</span></div>
+    <div class="type-row"><span class="type-meta">Text LG<br>Vela Sans 400 · 22px · 1.6</span><span class="hoe-text-lg">A community spotlighting the people behind enterprise software.</span></div>
+    <div class="type-row"><span class="type-meta">Text SM (body)<br>Vela Sans 400 · 16px · 1.7</span><span class="hoe-text-sm">The ERP landscape is shaped by humans — consultants, admins, builders — whose stories rarely get told. We tell them, plainly and honestly.</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">04 — Buttons &amp; CTAs</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Buttons</h2>
+    <div class="demo-row">
+      <a class="hoe-btn" href="#">
+        <span class="hoe-btn__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        Read more stories</a>
+      <a class="hoe-btn hoe-btn--quiet" href="#">Contact Us</a>
+      <button class="hoe-btn hoe-btn--mt" type="button">Submit</button>
+      <a class="hoe-cta-link hoe-cta-link--dark hoe-cta-link--md hoe-cta-link--reverse" href="#">
+        <span class="hoe-btn__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        Read more</a>
+    </div>
+    <p class="note">Teal pill = primary CTA (hover → dark teal, arrow nudges 3px, press scales 0.97).
+      Quiet pill = header "Contact Us" — the only sentence-case button. Orange pill = co-brand form
+      submit ONLY. Soft arrow links carry no background — uppercase text + stroked arrow.</p>
+  </div>
+</section>
+
+<section class="on-dark hoe-section--dark">
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">05 — On dark teal</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Dark sections &amp; forms</h2>
+    <div class="demo-row">
+      <a class="hoe-cta-link hoe-cta-link--light" href="#">
+        <span class="hoe-btn__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        Submit your story</a>
+      <button class="hoe-btn hoe-btn--ghost" type="button">Attach a file</button>
+    </div>
+    <form class="hoe-form form-demo" onsubmit="return false">
+      <div class="hoe-form__row hoe-form__row--2">
+        <div class="hoe-field"><label>Name *</label><input type="text" placeholder="Jane Doe"></div>
+        <div class="hoe-field"><label>Email *</label><input type="email" placeholder="jane@company.com"></div>
+      </div>
+      <div class="hoe-field"><label>Message</label><textarea placeholder="Tell us your story…"></textarea></div>
+      <p class="hoe-form__error">Example error — salmon #FF8A5C</p>
+      <button class="hoe-btn hoe-btn--mt" type="submit">Submit</button>
+    </form>
+    <p class="note" style="margin-top:24px">Translucent fields (white 6% fill, 18% border), orange
+      #FF5F00 focus ring — tab into a field to see it. Submit is the co-brand orange pill.</p>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">06 — Cards</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Story cards</h2>
+    <div class="demo-cards">
+      <article class="hoe-card">
+        <div>
+          <div class="hoe-card__media"><div style="aspect-ratio:16/9;background:linear-gradient(135deg,var(--hoe-secondary-700),var(--hoe-accent-400))"></div></div>
+          <div class="hoe-card__body">
+            <div class="hoe-card__title-block">
+              <h3 class="hoe-card__title">Claire Singleton on choosing curiosity over comfort</h3>
+            </div>
+            <p class="hoe-card__excerpt">From reluctant first project to leading transformations — a story about saying yes before you feel ready.</p>
+          </div>
+        </div>
+        <div class="hoe-card__footer">
+          <a class="hoe-cta-link hoe-cta-link--dark hoe-cta-link--md hoe-cta-link--reverse" href="#">
+            <span class="hoe-btn__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            Read more</a>
+        </div>
+      </article>
+      <div class="hoe-featured-card" style="background-image:linear-gradient(15deg,var(--hoe-primary-800),var(--hoe-gray-cool-500)); min-height:420px">
+        <div class="hoe-featured-card__caption"><h3>David Nye on staying curious through every wave of technology</h3></div>
+      </div>
+    </div>
+    <p class="note" style="margin-top:32px">Index card: white, 10px radius, hairline #EDEEF1 border, 30px rhythm,
+      hover lifts −4px. Featured card: white uppercase caption directly on the photo — the brand never
+      places scrims or overlays on photography. Gradients above are placeholders for portrait photos.</p>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">07 — Icons</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">UI icons</h2>
+    <div class="icon-grid" id="icons"></div>
+    <p class="note" style="margin-top:24px">24×24 stroked arrows (1.5px, round caps) are the CTA signature.
+      Contact icons pair with the site's contact strip.</p>
+  </div>
+</section>
+
+<section>
+  <div class="board">
+    <p class="hoe-eyebrow sec-label">08 — Motion</p>
+    <h2 class="hoe-h3" style="text-transform:uppercase">Motion vocabulary</h2>
+    <div class="motion-list">
+      <div>Button hover/press: <code>200ms ease</code> colors, <code>transform 160ms cubic-bezier(0.23,1,0.32,1)</code>, press <code>scale(0.97)</code></div>
+      <div>CTA arrow nudge on hover: <code>translateX(3px)</code> — pointer devices only</div>
+      <div>Card hover lift: <code>translateY(-4px)</code> over <code>250ms</code> ease-out-strong</div>
+      <div>Menu panel slide-in: <code>400ms cubic-bezier(0.32,0.72,0,1)</code>, overlay fade <code>350ms</code></div>
+      <div>Sticky header frost: <code>0.5s ease-in-out</code>, logo shrinks to 150px after 100px scroll</div>
+      <div>Home marquee: <code>translateX(0 → −50%)</code> over <code>150s linear infinite</code>, pauses on hover</div>
+      <div>All motion honors <code>prefers-reduced-motion</code></div>
+    </div>
+  </div>
+</section>
+
+<footer class="board-footer">
+  <div class="board">
+    <p><b>Humans of ERP</b> × Maintain Technology · Brand kit generated from the live site.
+    Tokens: <code>node design-system/scripts/build-tokens.mjs</code> · Rules: <code>DESIGN.md</code> · Components: <code>design-system/components/README.md</code></p>
+  </div>
+</footer>
+
+<script>
+  const SCALES = {
+    "Primary (ink)": ["#F4F7FB","#E9EFF5","#CEDDE9","#A2C1D7","#709FC0","#4E84A9","#3C6A8D","#315573","#2C4960","#293E51","#101820"],
+    "Secondary (dark teal)": ["#F1FCFC","#CFF8F6","#9FF0EF","#67DEE1","#38C1C9","#1FA3AD","#16808B","#16666F","#165159","#17444A","#07272D"],
+    "Accent (teal)": ["#F0FBFA","#D8F5F5","#B5E9EC","#82D8DE","#48BEC8","#2DA2AD","#257A88","#266A78","#275863","#244A55","#133039"],
+    "Grays — Neutral": ["#F7F8F8","#EDEEF1","#D8DBDF","#B6BAC3","#8E95A2","#6B7280","#5B616E","#4A4E5A","#40444C","#383A42","#25272C"],
+    "Grays — Cool": ["#F3F8FA","#EAF1F5","#D8E5ED","#C0D4E1","#A6BDD3","#8FA6C5","#7B90B6","#65789D","#54647F","#485467","#2A303C"],
+    "Grays — Warm": ["#F4F3F2","#E2E1DF","#C8C4C0","#A8A29C","#8F8780","#79716B","#6E6460","#59524F","#4D4846","#453F3E","#262322"],
+  };
+  const STEPS = [50,100,200,300,400,500,600,700,800,900,950];
+  const lum = h => { const n = parseInt(h.slice(1),16);
+    return (0.299*(n>>16) + 0.587*((n>>8)&255) + 0.114*(n&255)) / 255; };
+  document.getElementById('scales').innerHTML = Object.entries(SCALES).map(([name, hexes]) =>
+    `<div class="scale"><div class="scale-name">${name}</div><div class="swatches">` +
+    hexes.map((h,i) => `<div class="sw" style="background:${h};color:${lum(h)>0.55?'#101820':'#fff'}"><span>${STEPS[i]}</span><span>${h}</span></div>`).join('') +
+    `</div></div>`).join('');
+
+  const ICONS = ["icon-right.svg","icon-right-btn.svg","icon.svg","menu-close.svg","message-thin.svg",
+    "phone-bold.svg","phone-call-icon.svg","pin-alt.svg","edit_calendar-1.svg"];
+  document.getElementById('icons').innerHTML = ICONS.map(f =>
+    `<figure class="icon-tile"><img src="./icons/${f}" alt=""><figcaption>${f}</figcaption></figure>`).join('');
+</script>
+</body>
+</html>

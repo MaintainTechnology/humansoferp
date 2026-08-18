@@ -1,0 +1,456 @@
+/* Humans of ERP — component patterns, distilled from the live site's CSS.
+ * Sources: public/styles/site.css (Elementor kit 6 + "Master CTA Button" snippet,
+ * post 188), content/inline-css.json (loop-277 story card), src/styles/app.css
+ * (.mt-form system + motion polish). Hand-maintained — update when the site's
+ * components change. Requires colors.css (–-hoe-* vars) and typography.css (fonts).
+ *
+ * Docs: design-system/components/README.md · Visual board: design-system/brand-kit.html
+ */
+
+/* ---------- component tokens ---------- */
+:root {
+  /* radius ladder — scales with element size */
+  --hoe-radius-sm: 8px;      /* buttons, inputs, marquee slides, featured cards */
+  --hoe-radius-md: 10px;     /* story index cards */
+  --hoe-radius-lg: 12px;     /* form panel cards */
+  --hoe-radius-xl: 20px;     /* story featured image */
+  --hoe-radius-pill: 999px;  /* co-brand submit pill */
+
+  --hoe-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05); /* the site's only shadow */
+
+  /* motion */
+  --hoe-transition: all 0.3s;                          /* Elementor kit default */
+  --hoe-ease-out-strong: cubic-bezier(0.23, 1, 0.32, 1); /* conversion polish layer */
+  --hoe-drawer-ease: cubic-bezier(0.32, 0.72, 0, 1);     /* popup/drawer slide-in */
+
+  /* co-brand + feedback colors (not part of the HoE palette scales) */
+  --hoe-mt-orange: #FF5F00;        /* Maintain Technology — co-brand ONLY */
+  --hoe-mt-orange-hover: #CC4302;
+  --hoe-form-error: #FF8A5C;       /* salmon, for dark surfaces */
+  --hoe-form-success: #8EE6A8;     /* mint, for dark surfaces */
+  --hoe-gold: #E2D0A0;             /* footer top border */
+
+  /* CTA type scale (fluid, from the Master CTA Button snippet) */
+  --hoe-cta-text-lg: clamp(0.875rem, 0.7139rem + 0.6873vw, 1.25rem);
+  --hoe-cta-text-md: clamp(0.875rem, 0.8213rem + 0.2291vw, 1rem);
+  --hoe-cta-icon: clamp(0.9375rem, 0.8033rem + 0.5728vw, 1.25rem);
+}
+
+/* ---------- buttons ---------- */
+
+/* Primary CTA — teal pill ("Read More Stories", "Submit Your Story").
+   56px tall, uppercase, hover teal -> dark teal. */
+.hoe-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 16px clamp(1.375rem, 1.3213rem + 0.2291vw, 1.5rem);
+  font-family: 'Vela Sans', sans-serif; /* CTA font var is undefined on-site; buttons inherit body */
+  font-size: var(--hoe-cta-text-lg);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: normal;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: var(--hoe-accent-600, #257A88);
+  border: 0;
+  border-radius: var(--hoe-radius-sm);
+  outline: 1px solid var(--hoe-secondary-950, #07272D);
+  box-shadow: var(--hoe-shadow);
+  cursor: pointer;
+  transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease,
+    box-shadow 200ms ease, transform 160ms var(--hoe-ease-out-strong);
+}
+.hoe-btn:hover { background: var(--hoe-secondary-950, #07272D); }
+.hoe-btn:active { transform: scale(0.97); }
+
+.hoe-btn .hoe-btn__icon,
+.hoe-cta-link .hoe-btn__icon {
+  display: inline-flex;
+  width: var(--hoe-cta-icon);
+  height: var(--hoe-cta-icon);
+  transition: transform 200ms var(--hoe-ease-out-strong);
+}
+.hoe-btn .hoe-btn__icon svg,
+.hoe-cta-link .hoe-btn__icon svg { width: 100%; height: 100%; }
+.hoe-btn .hoe-btn__icon svg path { stroke: currentColor; fill: none; }
+@media (hover: hover) and (pointer: fine) {
+  .hoe-btn:hover .hoe-btn__icon,
+  .hoe-cta-link:hover .hoe-btn__icon { transform: translateX(3px); }
+}
+
+/* Quiet pill — the header/side-menu "Contact Us" button. The only sentence-case,
+   regular-weight button on the site, and the only one with a :focus style. */
+.hoe-btn--quiet {
+  height: auto;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.7em;
+  outline: none;
+  box-shadow: none;
+}
+.hoe-btn--quiet:hover,
+.hoe-btn--quiet:focus { background: var(--hoe-secondary-950, #07272D); }
+
+/* Co-brand submit — Maintain Technology orange full pill. The ONLY orange CTA;
+   use exclusively for form submits in co-branded (footer/contact) contexts. */
+.hoe-btn--mt {
+  height: auto;
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  text-transform: none;
+  background: var(--hoe-mt-orange);
+  border-radius: var(--hoe-radius-pill);
+  outline: none;
+  box-shadow: none;
+}
+.hoe-btn--mt:hover { background: var(--hoe-mt-orange); } /* no hover fill change on-site */
+.hoe-btn--mt:disabled { opacity: 0.6; cursor: progress; }
+
+/* Ghost button — translucent, for dark surfaces (file-upload control). */
+.hoe-btn--ghost {
+  height: auto;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: none;
+  color: inherit;
+  background: rgb(255 255 255 / 10%);
+  border: 1px solid rgb(255 255 255 / 22%);
+  outline: none;
+  box-shadow: none;
+}
+.hoe-btn--ghost:hover { background: rgb(255 255 255 / 10%); border-color: var(--hoe-mt-orange); }
+
+/* Soft arrow CTA — bare uppercase text + stroked arrow, no background/padding.
+   --light on dark-teal sections, --dark on light cards.
+   Default markup order: icon BEFORE text; add --reverse for trailing arrow
+   (story-card "Read more"). */
+.hoe-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  font-family: 'Vela Sans', sans-serif;
+  font-size: var(--hoe-cta-text-lg);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: normal;
+  text-decoration: none;
+  background: none;
+  border: 0;
+  border-radius: var(--hoe-radius-sm);
+  cursor: pointer;
+  transition: var(--hoe-transition);
+}
+.hoe-cta-link--md { font-size: var(--hoe-cta-text-md); }
+.hoe-cta-link--light { color: #FFFFFF; }
+.hoe-cta-link--dark { color: #000000; }
+.hoe-cta-link--reverse { flex-direction: row-reverse; }
+.hoe-cta-link .hoe-btn__icon svg path { stroke: currentColor; fill: none; stroke-width: 1.5; }
+
+/* ---------- headings & labels ---------- */
+
+/* Eyebrow — small uppercase label above headings (kit typography e1d2112). */
+.hoe-eyebrow {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.6;
+}
+
+/* Two-tone headline — ink heading with a teal emphasis span:
+   <h1 class="hoe-h1 hoe-two-tone">Real Stories <span>Shaping ERP</span></h1> */
+.hoe-two-tone { color: var(--hoe-primary-950, #101820); }
+.hoe-two-tone > span { color: var(--hoe-accent-600, #257A88); }
+
+/* ---------- section bands ---------- */
+.hoe-section--cream { background-color: var(--hoe-background-light, #F5F5F1); }
+.hoe-section--aqua  { background-color: var(--hoe-secondary-50, #F1FCFC); }  /* page heroes */
+.hoe-section--dark  { background-color: var(--hoe-secondary-950, #07272D); color: #FFFFFF; }
+.hoe-section--ink   { background-color: var(--hoe-primary-950, #101820); color: #FFFFFF; }
+/* "Forge Blue" gradient band (site: .gradient-fb-bg) */
+.hoe-section--gradient {
+  background: linear-gradient(116deg, #07252C 11.33%, #08242B 35%, #0A2227 50%,
+    #0C2025 58%, #0E1E21 75%, #0F1D20 87%);
+  color: #FFFFFF;
+}
+
+/* ---------- cards ---------- */
+
+/* Story index card — white panel, 10px radius, hairline border, 30px rhythm.
+   Structure: .hoe-card > (.hoe-card__media img) + .hoe-card__body + .hoe-card__footer */
+.hoe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  height: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid var(--hoe-gray-neutral-100, #EDEEF1);
+  border-radius: var(--hoe-radius-md);
+}
+.hoe-card__media img { display: block; width: 100%; } /* 16:9 source, clipped by card */
+.hoe-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 30px 0;
+}
+.hoe-card__title-block { display: flex; flex-direction: column; gap: 15px; }
+.hoe-card__title {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: clamp(1.125rem, 1.0713rem + 0.2291vw, 1.25rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: var(--hoe-primary-950, #101820);
+  text-wrap: pretty;
+}
+.hoe-card__excerpt {
+  font-family: 'Vela Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7em;
+  color: var(--hoe-system-text, #5B616E);
+  margin: 0;
+}
+.hoe-card__footer { padding: 0 30px 30px; }
+
+/* Card grid — 3 / 2 / 1 columns, 30px gaps, equal heights. */
+.hoe-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  grid-auto-rows: 1fr;
+}
+@media (max-width: 1024px) { .hoe-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 767px)  { .hoe-card-grid { grid-template-columns: repeat(1, minmax(0, 1fr)); } }
+
+/* Hover lift (real pointers only). */
+.hoe-card, .hoe-photo-card, .hoe-related-card {
+  transition: transform 250ms var(--hoe-ease-out-strong);
+}
+@media (hover: hover) and (pointer: fine) {
+  .hoe-card:hover, .hoe-photo-card:hover, .hoe-related-card:hover { transform: translateY(-4px); }
+}
+
+/* Photo card — bare portrait photo (4:5) in an 8px clipping frame (marquee slides). */
+.hoe-photo-card { overflow: hidden; border-radius: var(--hoe-radius-sm); }
+.hoe-photo-card img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+}
+
+/* Featured card — photo with white uppercase caption sitting DIRECTLY on the
+   image (no scrim — the brand never puts overlays on photography). */
+.hoe-featured-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  min-height: 515px;
+  border-radius: var(--hoe-radius-sm);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hoe-featured-card__caption {
+  position: absolute;
+  bottom: 0; left: 0;
+  z-index: 1;
+  max-width: 82%;
+  padding: 0 40px 32px;
+}
+.hoe-featured-card__caption h3 {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: clamp(1.75rem, 1.6426rem + 0.4582vw, 2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: -1.1px;
+  color: #FFFFFF;
+  margin: 0;
+}
+@media (max-width: 767px) { .hoe-featured-card__caption { padding: 0 20px 20px; } }
+
+/* Related-story card — borderless: tall photo block, text below, arrow link. */
+.hoe-related-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  height: 100%;
+}
+.hoe-related-card__photo {
+  min-height: 588px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hoe-related-card__text { display: flex; flex-direction: column; gap: 14px; }
+
+/* ---------- marquee (home "carousel") ---------- */
+/* Pure CSS: duplicate the slide set once, translate -50% over 150s, pause on hover. */
+.hoe-marquee { overflow: hidden; }
+.hoe-marquee__track { display: flex; gap: 0; animation: hoe-marquee-rtl 150s linear infinite; }
+.hoe-marquee--ltr .hoe-marquee__track { animation-name: hoe-marquee-ltr; }
+@keyframes hoe-marquee-rtl { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes hoe-marquee-ltr { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (hover: hover) and (pointer: fine) {
+  .hoe-marquee__track:hover { animation-play-state: paused; }
+}
+
+/* ---------- forms (.mt-form system — designed for dark/co-brand surfaces) ---------- */
+.hoe-form { display: grid; gap: 1rem; }
+.hoe-form__row { display: grid; gap: 1rem; }
+@media (min-width: 768px) { .hoe-form__row--2 { grid-template-columns: 1fr 1fr; } }
+
+.hoe-field { display: grid; gap: 0.375rem; }
+.hoe-field > label { font-size: 0.875rem; font-weight: 500; }
+.hoe-field :is(input, select, textarea) {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  color: inherit;
+  background: rgb(255 255 255 / 6%);
+  border: 1px solid rgb(255 255 255 / 18%);
+  border-radius: var(--hoe-radius-sm);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.hoe-field :is(input, select, textarea):focus-visible {
+  outline: 2px solid var(--hoe-mt-orange);
+  outline-offset: 2px;
+  border-color: var(--hoe-mt-orange);
+}
+.hoe-field textarea { min-height: 8rem; resize: vertical; }
+.hoe-field__hint { font-size: 0.8125rem; opacity: 0.7; }
+.hoe-form__error { font-size: 0.8125rem; color: var(--hoe-form-error); }
+.hoe-form__status[data-state='error'] { color: var(--hoe-form-error); }
+.hoe-form__status[data-state='ok'] { color: var(--hoe-form-success); }
+
+/* Light-surface form panel (contact page): cream-gold card. */
+.hoe-form-panel {
+  background: #F9F4EA; /* gold #E2D0A0 at 22% over white */
+  border-radius: var(--hoe-radius-lg);
+  padding: 32px;
+}
+
+/* ---------- chrome ---------- */
+
+/* Header — transparent bar over light heroes; frosted when sticky. */
+.hoe-header {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  z-index: 99999;
+  padding: 20px;
+  background: transparent;
+}
+.hoe-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hoe-header--sticky {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: 0.5s all ease-in-out;
+}
+.hoe-nav { display: flex; align-items: center; gap: 42px; }
+.hoe-nav a {
+  font-family: 'Vela Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7em;
+  color: #040E10;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: color 150ms ease;
+}
+
+/* Footer — light despite the brand ink: washed photo bg, gold top border. */
+.hoe-footer {
+  border-top: 3px solid var(--hoe-gold);
+  background-color: var(--hoe-primary-950, #101820); /* fallback under the photo */
+  background-position: center;
+  background-size: cover;
+  padding: 120px 20px 0;
+  color: var(--hoe-primary-950, #101820); /* text is ink — the bg photo is near-white */
+}
+.hoe-footer__nav a {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: clamp(1.125rem, 1.0713rem + 0.2291vw, 1.25rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: inherit;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+.hoe-footer__legal {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--hoe-secondary-900, #244A55);
+  padding: 20px 0;
+  font-family: 'Vela Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5em;
+}
+
+/* Popup / off-canvas menu — ink-tinted blurred overlay, aqua panel from the right. */
+.hoe-popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483630;
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(16 24 32 / 55%);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+.hoe-popup-overlay.is-open { opacity: 1; visibility: visible; }
+.hoe-popup-panel {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--hoe-secondary-50, #F1FCFC);
+  padding: 50px;
+  transform: translateX(6%);
+  transition: transform 400ms var(--hoe-drawer-ease);
+}
+.is-open .hoe-popup-panel { transform: none; }
+@media (max-width: 767px) { .hoe-popup-panel { padding: 50px 20px; } }
+.hoe-popup-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--hoe-primary-950, #101820);
+  border: 0;
+  cursor: pointer;
+}
+.hoe-popup-close svg { width: 10px; }
+
+/* ---------- accessibility ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .hoe-btn, .hoe-cta-link, .hoe-card, .hoe-photo-card, .hoe-related-card,
+  .hoe-btn .hoe-btn__icon, .hoe-cta-link .hoe-btn__icon, .hoe-popup-panel {
+    transition: none;
+    transform: none;
+  }
+  .hoe-marquee__track { animation: none; }
+}
