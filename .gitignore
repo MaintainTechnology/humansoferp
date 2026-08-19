@@ -157,3 +157,6 @@ popup-*.png
 .claude-flow/
 .vscode/
 .vercel
+
+# macOS finder junk
+.DS_Store
