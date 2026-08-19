@@ -8,6 +8,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { phpUnserialize } from './lib/wxr.mjs';
 import { parseTag, resolveTag, resolveSettings, isVisible, componentProps } from '../src/lib/elementor/props.js';
+import { compose } from '../src/lib/email.js';
 
 let n = 0;
 const it = (name, fn) => {
@@ -212,6 +213,28 @@ it('content: taxonomy terms are present for the filter', () => {
 it('content: permalinks map stories under /stories/', () => {
   const s = stories.find((x) => x.status === 'publish');
   assert.equal(site.permalinks[s.id], `/stories/${s.slug}`);
+});
+
+// --- form notification email ------------------------------------------------
+const sub = (fields, subject = 'New enquiry') => ({
+  form: 'contact-form',
+  receivedAt: '2026-01-01T00:00:00.000Z',
+  subject,
+  fields,
+});
+
+it('email: every submitted field reaches both the text and HTML parts', () => {
+  const { text, html } = compose(sub({ Name: 'Ada', 'Email Address': 'ada@example.com' }));
+  assert.match(text, /Name: Ada/);
+  assert.match(text, /Email Address: ada@example\.com/);
+  assert.ok(html.includes('Ada') && html.includes('ada@example.com'));
+});
+
+it('email: untrusted values cannot inject markup into the notification', () => {
+  const { html } = compose(sub({ Message: '<img src=x onerror=alert(1)>"' }, '<b>subj</b>'));
+  assert.ok(!html.includes('<img'), 'raw tag survived into the HTML part');
+  assert.ok(!html.includes('<b>subj</b>'), 'raw tag survived into the subject heading');
+  assert.ok(html.includes('&lt;img src=x onerror=alert(1)&gt;&quot;'));
 });
 
 console.log(`${n} checks passed`);

@@ -175,12 +175,31 @@ geometry against the live site:
 
 ## Configuration
 
-Form submissions default to server-side logging so the site can deploy before a
-mail provider is chosen:
+Both forms — the `/contact-us` enquiry form and the footer subscribe form — post
+to `/api/forms`, which emails the submission through [Resend](https://resend.com):
+
+| | |
+|---|---|
+| To | `info@humansoferp.com` |
+| Cc | `jon@pepco.com.au` |
+| Reply-To | the address the visitor entered |
+| Subject | `New enquiry from {Name}`, or `New subscriber: {email}` for the footer form |
 
 ```bash
-FORM_WEBHOOK_URL=https://…   # Slack / Teams / Zapier / CRM endpoint
+RESEND_API_KEY=re_…                              # required for delivery
+FORM_FROM_EMAIL=Humans of ERP <noreply@humansoferp.com>   # optional override
+FORM_WEBHOOK_URL=https://…                       # optional fallback when RESEND_API_KEY is unset
 ```
+
+**`humansoferp.com` must be verified in Resend** or every send fails with a 403
+and the visitor sees "We could not send your message". Add the DKIM + SPF
+records Resend lists for the domain, then hit Verify. Until that resolves, set
+`FORM_FROM_EMAIL=onboarding@resend.dev` — note Resend's shared sender only
+delivers to the account owner's own address, so it is a smoke test, not a
+stand-in for production.
+
+With neither variable set the route logs the submission to the function console
+and returns success, so a preview deploy without secrets still works.
 
 ## Deploying
 
@@ -189,5 +208,6 @@ zero-config. Before going live:
 
 1. Point `metadataBase` in `src/app/layout.jsx` and `BASE` in
    `src/app/sitemap.js` at the production domain if it is not humansoferp.com.
-2. Set `FORM_WEBHOOK_URL`.
+2. Set `RESEND_API_KEY` in the host's environment (`.env` is not deployed) and
+   verify `humansoferp.com` in Resend.
 3. Re-add analytics if you still want it.
